@@ -4,24 +4,44 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#historic_city">
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#chandraketugarh_ruin">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://narrateastory.com/heritageontology#chandraketugarh"/>
-    <rdfs:subClassOf rdf:resource="http://narrateastory.com/heritageontology#kolkata"/>
-    <rdfs:subClassOf rdf:resource="http://narrateastory.com/heritageontology#berachampa"/>
-    <rdfs:subClassOf rdf:resource="http://narrateastory.com/heritageontology#tamralipta"/>
-    <rdfs:subClassOf rdf:resource="http://narrateastory.com/heritageontology#saptagram"/>
-    <rdfs:subClassOf rdf:resource="http://narrateastory.com/heritageontology#satgaon"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#tamralipta">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#tamralipta"/>
-    <ex:hasancienttraderoute rdf:resource="http://narrateastory.com/heritageontology#rome"/>
-    <rdfs:seeAlso>prehistoric era approx before 3000 bc</rdfs:seeAlso>
-    <rdfs:seeAlso>Lat: 22.28515566, Long: 87.91920241</rdfs:seeAlso>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#chandraketugarh_ruin"/>
+    <ex:ispartof rdf:resource="http://narrateastory.com/heritageontology#urban_planning"/>
+    <rdfs:seeAlso>ancient era approx 500 bc to 3000 bc</rdfs:seeAlso>
+    <rdfs:seeAlso>Lat: 22.69759268, Long: 88.68767674</rdfs:seeAlso>
     <rdfs:seeAlso rdf:resource=""/>
-    <rdfs:seeAlso rdf:resource="https://asi.nic.in/museum-tamluk/"/>
-    <rdfs:seeAlso>"tamluk-mecheda road</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource="https://www.jstor.org/stable/42936640?casa_token=jvwbkxgkky0"/>
+    <rdfs:seeAlso>n/a</rdfs:seeAlso>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#chandraketugarh_pottery">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#chandraketugarh_pottery"/>
+    <ex:hasconnectionto rdf:resource="http://narrateastory.com/heritageontology#neighboring_regions"/>
+    <rdfs:seeAlso>ancient era approx 500 bc to 3000 bc</rdfs:seeAlso>
+    <rdfs:seeAlso>Lat: 22.69744292, Long: 88.68763838</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource=""/>
+    <rdfs:seeAlso rdf:resource="https://www.jstor.org/stable/42936640?casa_token=z_xlbyca3wc"/>
+    <rdfs:seeAlso>n/a</rdfs:seeAlso>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#merchants_from_chandraketugarh">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#merchants_from_chandraketugarh"/>
+    <ex:traded rdf:resource="http://narrateastory.com/heritageontology#beads"/>
+    <rdfs:seeAlso>prehistoric era approx 3000 bc to 10000 bc</rdfs:seeAlso>
+    <rdfs:seeAlso>Lat: 22.69411184, Long: 88.68582273</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource=""/>
+    <rdfs:seeAlso rdf:resource="https://link.springer.com/chapter/10.1007/978-981-16-3656-1_13"/>
+    <rdfs:seeAlso>n/a</rdfs:seeAlso>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#mauryan_dynasty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#mauryan_dynasty"/>
+    <ex:hadreign rdf:resource="http://narrateastory.com/heritageontology#322-185_bc"/>
+    <rdfs:seeAlso>prehistoric era approx before 3000 bc</rdfs:seeAlso>
+    <rdfs:seeAlso>Lat: 22.6976, Long: 88.6884</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource=""/>
+    <rdfs:seeAlso>chandraketugarh</rdfs:seeAlso>
   </rdf:Description>
   <rdf:Description rdf:about="http://narrateastory.com/heritageontology#chandraketugarh">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -33,36 +53,166 @@
     <rdfs:seeAlso rdf:resource="https://link.springer.com/article/10.1007/s12520-017-0577-3"/>
     <rdfs:seeAlso>chandraketugarh</rdfs:seeAlso>
     <rdfs:seeAlso rdf:resource=""/>
-    <rdfs:seeAlso>prehistoric era approx before 10000 bc</rdfs:seeAlso>
-    <rdfs:seeAlso>Lat: 22.69765408, Long: 88.68828557</rdfs:seeAlso>
-    <rdfs:seeAlso>"chandraketugarh</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource="https://books.google.co.in/books?hl=en&amp;lr=&amp;id=67fmaaaamaaj&amp;oi=fnd&amp;pg=pa157&amp;dq=chandraketugarh+terracotta&amp;ots=2s28nykxg8&amp;sig=e45ra8fdnwrth3t4lzzbooxnlwi&amp;redir_esc=y#v=onepage&amp;q=chandraketugarh%20terracotta&amp;f=false"/>
+    <rdfs:seeAlso rdf:resource="https://tinyurl.com/89yf2x9r"/>
+    <rdfs:seeAlso rdf:resource="https://d1wqtxts1xzle7.cloudfront.net/60066433/chandraketugarh_report20190720-1050-l4axx-libre.pdf?1563648312=&amp;response-content-disposition=inline%3b+filename%3dthe_heritage_of_chandraketugarh_a_report.pdf&amp;expires=1723985017&amp;signature=tetjclbwzdpoka1ao4fykcowerkbqvxuxk01f8jl5z40ndclsxlwknsbq19zn2ycgin~qewhf6zh8v5prfyrsctpkt2m2srpcdmu9ymykxru2vtwoqidealnvamynd2ijmchnjjjguynpmurkyo1wxq1tjcefwb5liwhjar4-ytaq8wxfxva7gc5cicy9wt-oou4nl~j10~oww86-w9nvamn1yxuu~nmng-b34j7aeioczct05yxsgt5ybmyi1on6ubvkn8pzei4fmknozjqqmv7gpmoi15y~eukloayik3cwdi5tsv8k0uv~srbout3etd8b2pez7l5-vooi84wpw__&amp;key-pair-id=apkajlohf5ggslrbv4za"/>
+    <rdfs:seeAlso rdf:resource="http://www.heritageuniversityofkerala.com/journalpdf/volume5/18.pdf"/>
+    <rdfs:seeAlso rdf:resource="https://www.jstor.org/stable/pdf/44145831.pdf?casa_token=z7awcjfnjfqaaaaa:i9095rfiiptvs3h3dri_l-tolxhkuw1x4lkb_ac97pgygs12oegb_pfwvwxl0lmxmtm2lbp1ldb3nznozmk2cp67icxglokibghzz4vujp60lxenvje"/>
+    <rdfs:seeAlso>prehistoric era approx 3000 bc to 10000 bc</rdfs:seeAlso>
+    <rdfs:seeAlso>Lat: 22.60085037, Long: 72.28385146</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource="https://web.archive.org/web/20180602130456id_/http://insa.nic.in/writereaddata/uploadedfiles/ijhs/vol52_2_2017__art11.pdf"/>
+    <rdfs:seeAlso>n/a</rdfs:seeAlso>
+    <rdfs:seeAlso>ancient era approx 500 bc to 3000 bc</rdfs:seeAlso>
+    <rdfs:seeAlso>Lat: 22.69512018, Long: 88.68924319</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource="https://bijmrd.com/wp-content/uploads/2024/07/116-121-1.pdf"/>
+    <rdfs:seeAlso>Lat: 22.69619294, Long: 88.68815876</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource="https://www.jstor.org/stable/42936640?casa_token=jvwbkxgkky0"/>
+    <rdfs:seeAlso>Lat: 22.69462144, Long: 88.68636081</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource="https://www.academia.edu/download/99692930/25jul201707073816"/>
+    <rdfs:seeAlso>Lat: 22.69638714, Long: 88.6868108</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource="https://www.academia.edu/download/60066433/chandraketugarh_report20190720-1050-l4axx.pdf"/>
     <ex:isuniquefor rdf:resource="http://narrateastory.com/heritageontology#terracotta_monuments"/>
-    <ex:islocatedin rdf:resource="http://narrateastory.com/heritageontology#kolkata"/>
     <ex:hasnearbyattraction rdf:resource="http://narrateastory.com/heritageontology#berachampa"/>
     <ex:hasancienttraderoute rdf:resource="http://narrateastory.com/heritageontology#tamralipta"/>
     <ex:hasancienttraderoute rdf:resource="http://narrateastory.com/heritageontology#saptagram"/>
-    <ex:hastravelobstacle rdf:resource="http://narrateastory.com/heritageontology#airport"/>
+    <ex:hassimilarneglectedhistoricsite rdf:resource="http://narrateastory.com/heritageontology#lothal"/>
+    <ex:hascreator rdf:resource="http://narrateastory.com/heritageontology#king_chandraketu"/>
+    <ex:hasbuildingmaterial rdf:resource="http://narrateastory.com/heritageontology#brick_structure"/>
+    <ex:hasfolklore rdf:resource="http://narrateastory.com/heritageontology#khanar_bachan"/>
+    <ex:wasruledby rdf:resource="http://narrateastory.com/heritageontology#king_chandraketu"/>
+    <ex:locatedin rdf:resource="http://narrateastory.com/heritageontology#west_bengal"/>
+    <ex:hasnearbylandmark rdf:resource="http://narrateastory.com/heritageontology#kolkata"/>
+    <ex:hasnearbylandmark rdf:resource="http://narrateastory.com/heritageontology#sunderban"/>
+    <ex:hashistoricalsignificance rdf:resource="http://narrateastory.com/heritageontology#ancient_trade_center"/>
+    <ex:ispartof rdf:resource="http://narrateastory.com/heritageontology#ganges_delta_archaeological_site"/>
+    <ex:isassociatedwith rdf:resource="http://narrateastory.com/heritageontology#mauryan_dynasty"/>
+    <ex:hasartifacts rdf:resource="http://narrateastory.com/heritageontology#large_brick_structures"/>
+    <ex:exports rdf:resource="http://narrateastory.com/heritageontology#spices"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#terracotta_monuments">
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#valor_in_battle">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#terracotta_monuments"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#valor_in_battle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#khavda_pottery">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#khavda_pottery"/>
+    <ex:datesbackto rdf:resource="http://narrateastory.com/heritageontology#indus_valley_civilization"/>
+    <rdfs:seeAlso>ancient era approx 500 bc to 3000 bc</rdfs:seeAlso>
+    <rdfs:seeAlso>Lat: 23.66649145, Long: 68.98717874</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource=""/>
+    <rdfs:seeAlso rdf:resource="https://www.jstor.org/stable/pdf/42930491.pdf?casa_token=tht_de40-peaaaaa:xafb-rpgnwzhhhc81ckhujuz8yehw0skrhcc3zdedwhxpbspzkjbjumlypmy23sq7oiqio3cnswhhozruq8uibtiapbchwkcn2ijz5s87lfvpbqa4ta"/>
+    <rdfs:seeAlso>n/a</rdfs:seeAlso>
+    <rdfs:seeAlso>prehistoric era approx 3000 bc to 10000 bc</rdfs:seeAlso>
+    <rdfs:seeAlso>Lat: 23.65408199, Long: 68.98786787</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource="https://www.jstor.org/stable/pdf/4629607.pdf?casa_token=mbjk5aq9vysaaaaa:ic6_r3yb0nxa1hkwkixnqw4wamer0na7qz5v1bnsrbz7jdx-uxqww2eekbfhaomtbve7yed_qjj5vblgbjhzgvjztp0zhfa_yn-j7-gvw5fospfetv0"/>
+    <rdfs:seeAlso>Lat: 23.65872693, Long: 68.98743036</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource="https://www.academia.edu/download/53205520/ars_orientalis.pdf"/>
+    <ex:uselocalclayfromrunnofkutch rdf:resource="http://narrateastory.com/heritageontology#for_making_pottery"/>
+    <ex:featuresgeometricmotif rdf:resource="http://narrateastory.com/heritageontology#on_its_surface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#chandraketugarh_terracotta">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#chandraketugarh_terracotta"/>
+    <ex:hasexample rdf:resource="http://narrateastory.com/heritageontology#skilled_craftsmanship"/>
+    <rdfs:seeAlso>ancient era approx 500 bc to 3000 bc</rdfs:seeAlso>
+    <rdfs:seeAlso>Lat: 22.69638714, Long: 88.68685117</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource=""/>
+    <rdfs:seeAlso rdf:resource="https://www.jstor.org/stable/42930545?casa_token=tpdkkqumadaaaaaa:crz0ys6ma7obm6u1h-uhozgywezzo8oibs6pp-plomb5otfgoi7zh_fjda16zq6ftkm_r0cpxrvabwvls2wmupohmix3k0g2xs5czqetnileqtynsnu"/>
+    <rdfs:seeAlso>n/a</rdfs:seeAlso>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#ganges_delta_archaeological_site">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#ganges_delta_archaeological_site"/>
+    <ex:hasculturalsignificance rdf:resource="http://narrateastory.com/heritageontology#rich_historical_heritage"/>
+    <rdfs:seeAlso>prehistoric era approx before 3000 bc</rdfs:seeAlso>
+    <rdfs:seeAlso>Lat: 22.6976, Long: 88.6884</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource=""/>
+    <rdfs:seeAlso>chandraketugarh</rdfs:seeAlso>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#west_bengal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#west_bengal"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://narrateastory.com/heritageontology#nathula">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdf:type rdf:resource="http://narrateastory.com/heritageontology#nathula"/>
+    <ex:hasancienttraderoute rdf:resource="http://narrateastory.com/heritageontology#tamralipta"/>
     <ex:hasancienttraderoute rdf:resource="http://narrateastory.com/heritageontology#chandraketugarh"/>
     <ex:hasancienttraderoute rdf:resource="http://narrateastory.com/heritageontology#saptagram"/>
-    <rdfs:seeAlso>prehistoric era approx before 3000 bc</rdfs:seeAlso>
-    <rdfs:seeAlso>Lat: 27.38128898, Long: 88.86205245</rdfs:seeAlso>
-    <rdfs:seeAlso rdf:resource="https://www.youtube.com/watch?v=mp7bmrqncog"/>
-    <rdfs:seeAlso rdf:resource="https://commoditiesofempire.blogs.sas.ac.uk/files/2016/03/wp"/>
-    <rdfs:seeAlso>nathula</rdfs:seeAlso>
     <rdfs:seeAlso></rdfs:seeAlso>
+    <rdfs:seeAlso>Lat: 27.38128898, Long: 88.86205245</rdfs:seeAlso>
     <rdfs:seeAlso rdf:resource=""/>
+    <rdfs:seeAlso>prehistoric era approx before 3000 bc</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource="https://www.youtube.com/watch?v=mp7bmrqncog"/>
+    <rdfs:seeAlso rdf:resource="https://openurl.ebsco.com/epdb%3agcd%3a2%3a13871746/detailv2?sid=ebsco%3aplink%3ascholar&amp;id=ebsco%3agcd%3a113415742&amp;crl=c"/>
+    <rdfs:seeAlso>nathula</rdfs:seeAlso>
   </rdf:Description>
-  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#berachampa">
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#historic_city">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#berachampa"/>
+    <rdfs:subClassOf rdf:resource="http://narrateastory.com/heritageontology#chandraketugarh"/>
+    <rdfs:subClassOf rdf:resource="http://narrateastory.com/heritageontology#berachampa"/>
+    <rdfs:subClassOf rdf:resource="http://narrateastory.com/heritageontology#tamralipta"/>
+    <rdfs:subClassOf rdf:resource="http://narrateastory.com/heritageontology#saptagram"/>
+    <rdfs:subClassOf rdf:resource="http://narrateastory.com/heritageontology#satgaon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#lothal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#lothal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#on_its_surface">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#on_its_surface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#large_brick_structures">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#large_brick_structures"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#khanar_bachan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#khanar_bachan"/>
+    <ex:ispartof rdf:resource="http://narrateastory.com/heritageontology#agrarian_calander"/>
+    <rdfs:seeAlso>ancient era approx 500 bc to 3000 bc</rdfs:seeAlso>
+    <rdfs:seeAlso>Lat: 22.69617598, Long: 88.68907591</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource=""/>
+    <rdfs:seeAlso rdf:resource="https://www.researchgate.net/profile/arunima-chakraborty/publication/371044867_future_of_agriculturalstatisticalmodelling/links/64708ed159d5ad5f9c75d650/future-of-agriculturalstatisticalmodelling.pdf"/>
+    <rdfs:seeAlso>n/a</rdfs:seeAlso>
+    <rdfs:seeAlso>prehistoric era approx 3000 bc to 10000 bc</rdfs:seeAlso>
+    <rdfs:seeAlso>Lat: 22.68905762, Long: 88.69127625</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource="https://scholar.google.com/scholar?cluster=17196584521993273042&amp;hl=en&amp;as_sdt=0"/>
+    <ex:hasproverbson rdf:resource="http://narrateastory.com/heritageontology#good_agricultural_practice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#neighboring_regions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#neighboring_regions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#brick_structure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#brick_structure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#skilled_craftsmanship">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#skilled_craftsmanship"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hasconnectionto">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#roman_empire">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#roman_empire"/>
+    <ex:hastraderoute rdf:resource="http://narrateastory.com/heritageontology#via_egnatia"/>
+    <rdfs:seeAlso>prehistoric era approx before 3000 bc</rdfs:seeAlso>
+    <rdfs:seeAlso>Lat: 22.6976, Long: 88.6884</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource=""/>
+    <rdfs:seeAlso>chandraketugarh</rdfs:seeAlso>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#spices">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#spices"/>
+    <ex:isdemandedby rdf:resource="http://narrateastory.com/heritageontology#roman_empire"/>
+    <rdfs:seeAlso>prehistoric era approx before 3000 bc</rdfs:seeAlso>
+    <rdfs:seeAlso>Lat: 22.6976, Long: 88.6884</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource=""/>
+    <rdfs:seeAlso>chandraketugarh</rdfs:seeAlso>
   </rdf:Description>
   <rdf:Description rdf:about="http://narrateastory.com/heritageontology#saptagram">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -71,47 +221,169 @@
     <rdfs:seeAlso>prehistoric era approx before 3000 bc</rdfs:seeAlso>
     <rdfs:seeAlso>Lat: 22.9667, Long: 88.3833</rdfs:seeAlso>
     <rdfs:seeAlso rdf:resource=""/>
+    <rdfs:seeAlso rdf:resource="https://www.jstor.org/stable/pdf/44143923.pdf?casa_token=oocudksvu0kaaaaa:n0uocusgozkpu4tkm7nfnrcepbxc5wx03britfdf-z7dqykgazyoiohenf7jafauyya5dc7tiikkmi4ocldrotrtkesvbpzu-g4yksemf-aymld_vfo"/>
     <rdfs:seeAlso>saptagram</rdfs:seeAlso>
-    <rdfs:seeAlso>prehistoric era approx before 10000 bc</rdfs:seeAlso>
-    <rdfs:seeAlso>Lat: 22.95839332, Long: 88.36897299</rdfs:seeAlso>
-    <rdfs:seeAlso>"saptagram</rdfs:seeAlso>
-    <ex:hastravelobstacle rdf:resource="http://narrateastory.com/heritageontology#airport"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hasancienttraderoute">
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hastraderoute">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#rome">
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#satgaon">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#rome"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#satgaon"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#airport">
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#traded">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#king_chandraketu">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#airport"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#king_chandraketu"/>
+    <ex:ispartof rdf:resource="http://narrateastory.com/heritageontology#valor_in_battle"/>
+    <rdfs:seeAlso>ancient era approx 500 bc to 3000 bc</rdfs:seeAlso>
+    <rdfs:seeAlso>Lat: 22.69765408, Long: 88.68817895</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource=""/>
+    <rdfs:seeAlso rdf:resource="https://www.academia.edu/download/60066433/chandraketugarh_r"/>
+    <rdfs:seeAlso>n/a</rdfs:seeAlso>
   </rdf:Description>
-  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#isuniquefor">
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#featuresgeometricmotif">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#islocatedin">
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#tamralipta">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#tamralipta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#berachampa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#berachampa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#via_egnatia">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#via_egnatia"/>
+    <ex:hasancienttraderoute rdf:resource="http://narrateastory.com/heritageontology#chandraketugarh"/>
+    <ex:hasancienttraderoute rdf:resource="http://narrateastory.com/heritageontology#tamralipta"/>
+    <ex:hasancienttraderoute rdf:resource="http://narrateastory.com/heritageontology#saptagram"/>
+    <rdfs:seeAlso>prehistoric era approx before 3000 bc</rdfs:seeAlso>
+    <rdfs:seeAlso>Lat: 22.6976, Long: 88.6884</rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource=""/>
+    <rdfs:seeAlso>chandraketugarh</rdfs:seeAlso>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#datesbackto">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hashistoricname">
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#322-185_bc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#322-185_bc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hasculturalsignificance">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#partof">
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#ancient_trade_center">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#ancient_trade_center"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#agrarian_calander">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#agrarian_calander"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#for_making_pottery">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#for_making_pottery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#urban_planning">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#urban_planning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hasnearbyattraction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hasbuildingmaterial">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#sunderban">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#sunderban"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hascreator">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://narrateastory.com/heritageontology#kolkata">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdf:type rdf:resource="http://narrateastory.com/heritageontology#kolkata"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#satgaon">
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#terracotta_monuments">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#satgaon"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#terracotta_monuments"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hasnearbyattraction">
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hasexample">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hastravelobstacle">
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hashistoricalsignificance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#ispartof">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hasfolklore">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#exports">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hasartifacts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#isdemandedby">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#indus_valley_civilization">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#indus_valley_civilization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#partof">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hasproverbson">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#beads">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#beads"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hasnearbylandmark">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hashistoricname">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#locatedin">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#good_agricultural_practice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#good_agricultural_practice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#wasruledby">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hassimilarneglectedhistoricsite">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hadreign">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#hasancienttraderoute">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#rich_historical_heritage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://narrateastory.com/heritageontology#rich_historical_heritage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#uselocalclayfromrunnofkutch">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#isassociatedwith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://narrateastory.com/heritageontology#isuniquefor">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
 </rdf:RDF>
