@@ -17,6 +17,7 @@ Use of OWL Ontology:
 The website also features an OWL-formatted ontology that structures heritage data in a standardized way. This helps with:
 
 Semantic Data Representation: Ensuring clear relationships between different heritage elements (e.g., artifacts, locations, cultural practices).
+
 Interoperability: Enabling data exchange with other platforms, databases, and projects.
 
 Explore the platform at NarrateAStory.com.
