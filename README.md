@@ -22,4 +22,4 @@ Interoperability: Enabling data exchange with other platforms, databases, and pr
 
 Explore the platform at NarrateAStory.com.
 
-Citation: Deb, B. (2024). Collaborative Heritage Mapping Through Publicly Sourced Triples. Manuscript accepted for publication.
+Citation: Deb, B. (2024). Collaborative Heritage Mapping Through Publicly Sourced Triplets. Primitive Tider. ISSN 1501-0430. 
