@@ -1,4 +1,4 @@
-NarrateAStory.com is a research platform dedicated to the mapping and preservation of ancient heritage. It provides a collaborative space where the general public can co-create and contribute data about lesser-known and unknown heritage sites, practices, and cultural artifacts. Through this platform, users can share knowledge, stories, and research to help preserve and promote global heritage.
+NarrateAStory.com is a platform for heritage conservation by documenting cultural heritage and shortwave radio signal strength at heritage sites. It provides a collaborative space where the general public can co-create and contribute data about lesser-known and unknown heritage sites, practices, and cultural artifacts. Through this platform, users can share knowledge, stories, and research to help preserve and promote global heritage.
 
 Key Features:
 
