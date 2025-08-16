@@ -1,1 +1,2 @@
-﻿date,time,lat,long,location,frequency_mhz,readability,signalstrength
+timestamp	timePeriod	subject	relation	obj	documenter	lat	long	further_reading	altitude	inferred	frequency_mhz	readability	signal_strength
+
