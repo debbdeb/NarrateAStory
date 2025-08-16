@@ -1,1 +1,71 @@
-﻿timestamp,timeperiod,subject,relation,object,lat,long,further_reading,altitude,triple_language
+timestamp	timePeriod	subject	relation	obj	documenter	lat	long	further_reading	altitude	inferred
+2024-07-18T10:54:51.298Z	Ancient Era Approx 500 BC to 3000 BC	King Chandraketu	isPartOf	Valor in battle	admin	22.69765408	88.68817895	https://www.academia.edu/download/60066433/Chandraketugarh_R	32	0
+2024-07-18T11:00:50.955Z	Ancient Era Approx 500 BC to 3000 BC	Khanar Bachan	isPartOf	agrarian calander	admin	22.69617598	88.68907591	https://www.researchgate.net/profile/Arunima-Chakraborty/publication/371044867_Future_of_agriculturalstatisticalmodelling/links/64708ed159d5ad5f9c75d650/Future-of-agriculturalstatisticalmodelling.pdf	32	0
+2024-07-18T11:03:12.559Z	Ancient Era Approx 500 BC to 3000 BC	chandraketugarh pottery	hasConnectionTo	neighboring regions	admin	22.69744292	88.68763838	https://www.jstor.org/stable/42936640?casa_token=Z_xlByCa3Wc	32	0
+2024-07-18T11:07:25.298Z	Ancient Era Approx 500 BC to 3000 BC	Chandraketugarh Terracotta	hasExample	skilled craftsmanship	admin	22.69638714	88.68685117	https://www.jstor.org/stable/42930545?casa_token=tPDkkqumadAAAAAA:cRz0Ys6MA7obM6u1H-UhOZgYWEzZO8oiBS6pP-plOMb5OtFGOI7ZH_FJda16Zq6FtKM_r0CpxrVAbWvLs2wmUpOhmix3k0g2Xs5CzQETNIlEQtYnSnU	32	0
+2024-07-18T11:12:21.017Z	Ancient Era Approx 500 BC to 3000 BC	chandraketugarh	wasRuledBy	King Chandraketu	admin	22.69638714	88.6868108	https://www.academia.edu/download/60066433/Chandraketugarh_Report20190720-1050-l4axx.pdf	32	0
+2024-07-24T02:28:56.050Z	Prehistoric Era Approx 3000 BC to 10000 BC	Merchants from Chandraketugarh	traded	beads	admin	22.69411184	88.68582273	https://link.springer.com/chapter/10.1007/978-981-16-3656-1_13	32	0
+2024-07-24T02:30:26.045Z	Prehistoric Era Approx 3000 BC to 10000 BC	Khanar Bachan	hasProverbsOn	good agricultural practice	admin	22.68905762	88.69127625	https://scholar.google.com/scholar?cluster=17196584521993273042&hl=en&as_sdt=0	32	0
+2024-07-24T15:56:56.692Z	Ancient Era Approx 500 BC to 3000 BC	Khavda Pottery	datesBackTo	Indus Valley Civilization	admin	23.66649145	68.98717874	https://www.jstor.org/stable/pdf/42930491.pdf?casa_token=THt_dE40-pEAAAAA:XAFB-rPGNwZhHhC81CkhUjuz8YEHw0sKRhCc3zdEdwhxpbspzKjbJuMLYPMy23sQ7oIQiO3CnsWhHOZrUQ8uIbtiaPBCHWKCN2Ijz5s87lFvPBQA4TA	30	0
+2024-07-24T16:02:43.703Z	Prehistoric Era Approx 3000 BC to 10000 BC	Khavda Pottery	useLocalClayFromRunnOfKutch	for making pottery	admin	23.65408199	68.98786787	https://www.jstor.org/stable/pdf/4629607.pdf?casa_token=MbjK5AQ9VysAAAAA:Ic6_r3YB0nxa1HkWkiXnQW4WAMEr0nA7qz5V1BnSRBz7jDX-UXQWw2EEkbfhAoMtbVE7yEd_QJj5VBLgBjhZGvjzTp0zHfA_Yn-J7-gvw5FOspFEtv0	40	0
+2024-07-24T16:05:03.997Z	Prehistoric Era Approx 3000 BC to 10000 BC	Khavda Pottery	featuresGeometricMotif	on its surface	admin	23.65872693	68.98743036	https://www.academia.edu/download/53205520/Ars_Orientalis.pdf	40	0
+2023-12-24T13:38:48.223Z	Prehistoric Era Approx Before 3000 BC	chandraketugarh	locatedIn	West Bengal	admin	22.6976	88.6884		32	0
+2023-12-24T13:38:48.223Z	Prehistoric Era Approx Before 3000 BC	chandraketugarh	hasNearbyLandmark	Kolkata	admin	22.6976	88.6884		32	0
+2023-12-24T13:38:48.223Z	Prehistoric Era Approx Before 3000 BC	chandraketugarh	hasHistoricalSignificance	Ancient Trade Center	admin	22.6976	88.6884		32	0
+2023-12-24T13:38:48.223Z	Prehistoric Era Approx Before 3000 BC	chandraketugarh	isPartOf	Ganges Delta Archaeological Site	admin	22.6976	88.6884		32	0
+2023-12-24T13:38:48.223Z	Prehistoric Era Approx Before 3000 BC	Ganges Delta Archaeological Site	hasCulturalSignificance	Rich Historical Heritage	admin	22.6976	88.6884		32	0
+2023-12-24T13:38:48.223Z	Prehistoric Era Approx Before 3000 BC	chandraketugarh	hasNearbyLandmark	Sunderban	admin	22.6976	88.6884		32	0
+2023-12-24T13:38:48.223Z	Prehistoric Era Approx Before 3000 BC	chandraketugarh	isAssociatedWith	Mauryan Dynasty	admin	22.6976	88.6884		32	0
+2023-12-24T13:38:48.223Z	Prehistoric Era Approx Before 3000 BC	Mauryan Dynasty	hadReign	322-185 BC	admin	22.6976	88.6884		32	0
+2023-12-24T13:38:48.223Z	Prehistoric Era Approx Before 3000 BC	chandraketugarh	hasArtifacts	Large Brick Structures	admin	22.6976	88.6884		32	0
+2023-12-24T13:38:48.223Z	Prehistoric Era Approx Before 3000 BC	chandraketugarh	exports	Spices	admin	22.6976	88.6884		32	0
+2023-12-24T13:38:48.223Z	Prehistoric Era Approx Before 3000 BC	Spices	isDemandedBy	Roman Empire	admin	22.6976	88.6884		32	0
+2023-12-24T13:38:48.223Z	Prehistoric Era Approx Before 3000 BC	Roman Empire	hasTradeRoute	Via Egnatia	admin	22.6976	88.6884		32	0
+2023-12-24T13:38:48.223Z	Prehistoric Era Approx Before 3000 BC	Via Egnatia	hasAncientTradeRoute	Chandraketugarh	admin	22.6976	88.6884		32	0
+2023-12-24T13:38:48.223Z	8thâ€“13th century CE	Kalila_wa_Dimna_manuscript_illustrations	isIconographicallyLinkedTo	Panchatantra		34	44	Cohen & Shehada (2017)		1
+2023-12-24T13:38:48.223Z	8thâ€“13th century CE	Kalila_wa_Dimna_manuscript_illustrations	carriedOutBy	Islamic_manuscript_illuminators		34	44	Cohen & Shehada (2017)		1
+2023-12-24T13:38:48.223Z	8thâ€“13th century CE	Kalila_wa_Dimna_manuscript_illustrations	tookPlaceAt	Persia_and_Abbasid_regions		34	44	Cohen & Shehada (2017)		1
+2023-12-24T13:38:48.223Z	17th century CE	La_Fontaine_printed_fables_illustrations	isIconographicallyLinkedTo	Panchatantra		48.8566	2.3522	Cohen & Shehada (2017)		1
+2023-12-24T13:38:48.223Z	17th century CE	La_Fontaine_printed_fables_illustrations	isIconographicallyLinkedTo	Panchatantra		48.8566	2.3522	Cohen & Shehada (2017)		1
+2023-12-24T13:38:48.223Z	17th century CE	La_Fontaine_printed_fables_illustrations	carriedOutBy	French_printmakers		48.8566	2.3522	Cohen & Shehada (2017)		1
+2023-12-24T13:38:48.223Z	17th century CE	La_Fontaine_printed_fables_illustrations	tookPlaceAt	France		48.8566	2.3522	Cohen & Shehada (2017)		1
+2023-12-24T13:38:48.223Z	19th century CE	English_Fables_prints	isIconographicallyLinkedTo	Panchatantra		51.5074	-0.1278	Smith (1999)		1
+2023-12-24T13:38:48.223Z	19th century CE	English_Fables_prints	carriedOutBy	English_printmakers		51.5074	-0.1278	Smith (1999)		1
+2023-12-24T13:38:48.223Z	19th century CE	English_Fables_prints	tookPlaceAt	England		51.5074	-0.1278	Smith (1999)		1
+2023-12-24T13:38:48.223Z		à¤ªà¤žà¥à¤šà¤¤à¤¨à¥à¤¤à¥à¤°	hasEnglishLabel	Panchatantra		25.3176	82.9739			1
+2023-12-24T13:38:48.223Z	12th century CE	×ª×¨×’×•×ž×™×_×œ×¢×‘×¨×™×ª	isDerivativeOf	à¤ªà¤žà¥à¤šà¤¤à¤¨à¥à¤¤à¥à¤°		31.7683	35.2137	Behl Aditya. "Love's Subtle Magic"		1
+2023-12-24T13:38:48.223Z		×ª×¨×’×•×ž×™×_×œ×¢×‘×¨×™×ª	hasEnglishLabel	HebrewTranslations		31.7683	35.2137			1
+2023-12-24T13:38:48.223Z		ÙƒÙ„ÙŠÙ„Ø©_ÙˆØ¯Ù…Ù†Ø©	hasEnglishLabel	KalilawaDimna		33.3128	44.3615			1
+2023-12-24T13:38:48.223Z	8th century CE	ÙƒÙ„ÙŠÙ„Ø©_ÙˆØ¯Ù…Ù†Ø©	isDerivativeOf	à¤ªà¤žà¥à¤šà¤¤à¤¨à¥à¤¤à¥à¤°		33.3128	44.3615	Gutas Dimitri. "Greek Thought Arabic Culture"		1
+2023-12-24T13:38:48.223Z		×ª×¨×’×•×ž×™×_×œ×¢×‘×¨×™×ª	hasEnglishLabel	HebrewTranslations		31.7683	35.2137			1
+2023-12-24T13:38:48.223Z	13thâ€“18th century CE	Traditio_Fabularum	wasInfluencedBy	Directorium_Humanae_Vitae		48.8566	2.3522	Zipes Jack. "The Aesopâ€™s Fables"		1
+2023-12-24T13:38:48.223Z	18th century CE	à¸£à¸²à¸¡à¹€à¸à¸µà¸¢à¸£à¸•à¸´à¹Œ	isDerivativeOf	à¤°à¤¾à¤®à¤¾à¤¯à¤£		13.7563	100.5018	Baker Chris. "The Ramakien"		1
+2023-12-24T13:38:48.223Z		à¸£à¸²à¸¡à¹€à¸à¸µà¸¢à¸£à¸•à¸´à¹Œ	hasEnglishLabel	Ramakien		13.7563	100.5018			1
+2023-12-24T13:38:48.223Z		à¤°à¤¾à¤®à¤¾à¤¯à¤£	hasEnglishLabel	Ramayana		25.3176	82.9739			1
+2023-12-24T13:38:48.223Z	1780s	à¸£à¸²à¸¡à¹€à¸à¸µà¸¢à¸£à¸•à¸´à¹Œ	carriedOutBy	King_Rama_I		13.7563	100.5018	Baker Chris. "The Ramakien"		1
+2023-12-24T13:38:48.223Z		à¸£à¸²à¸¡à¹€à¸à¸µà¸¢à¸£à¸•à¸´à¹Œ	hasEnglishLabel	Ramakien		13.7563	100.5018			1
+2023-12-24T13:38:48.223Z	18thâ€“19th century CE	à¸£à¸²à¸¡à¹€à¸à¸µà¸¢à¸£à¸•à¸´à¹Œ	tookPlaceAt	Thai_Royal_Court		13.7367	100.5231	Reynolds Craig J. "Seditious Histories"		1
+2023-12-24T13:38:48.223Z	5th century CE	Indian_Buddhist_Art	showsFeaturesOf	Ajanta_Murals		25.3176	82.9739	Sivaramamurti C. "Indian Painting"		1
+2023-12-24T13:38:48.223Z	9thâ€“13th century CE	Southeast_Asian_Temple_Art	showsFeaturesOf	Chola_Bronze_Sculptures		14.0583	108.2772	Harle J.C. "Art & Architecture of Indian Subcontinent"		1
+2023-12-24T13:38:48.223Z	14thâ€“17th century CE	Bidriware_Creation	wasProducedBy	Persian_Artisans		17.4139	78.4983	Stronge		1
+2023-12-24T13:38:48.223Z	5thâ€“12th century CE	Sri_Lankan_Murals	showsFeaturesOf	à¤°à¤¾à¤®à¤¾à¤¯à¤£		6.9331	80.8108	Fisher Robert. "Buddhist Art"		1
+2023-12-24T13:38:48.223Z	18th century CE onward	Dance_Drama_Performance	usedSpecificObject	à¤°à¤¾à¤®à¤¾à¤¯à¤£		25.3176	82.9739	Richman Paula. "Many Ramayanas"		1
+2023-12-24T13:38:48.223Z	13th century CE onward	Ramayana	usedSpecificObject	Dhamma		25.3176	82.9739	Pollock Sheldon. "Language of the Gods"		1
+2023-12-24T13:38:48.223Z	Approx. 5th century BCE	Valmiki	hasCreated	à¤°à¤¾à¤®à¤¾à¤¯à¤£		25.3176	82.9739	Richman Paula. "Many Ramayanas"		1
+2023-12-24T13:38:48.223Z		à¤°à¤¾à¤®à¤¾à¤¯à¤£	hasEnglishLabel	Ramayana		25.3176	82.9739			1
+2023-12-24T13:38:48.223Z	Approx. 3rd century BCE	Vishnu_Sharma	hasCreated	à¤ªà¤žà¥à¤šà¤¤à¤¨à¥à¤¤à¥à¤°		25.3176	82.9739	Behl Aditya. "Love's Subtle Magic"		1
+2023-12-24T13:38:48.223Z		à¤ªà¤žà¥à¤šà¤¤à¤¨à¥à¤¤à¥à¤°	hasEnglishLabel	Panchatantra		25.3176	82.9739			1
+2023-12-24T13:38:48.223Z		à¤ªà¤žà¥à¤šà¤¤à¤¨à¥à¤¤à¥à¤°	inferred	Directorium_Humanae_Vitae		25.3176	82.9739			1
+2023-12-24T13:38:48.223Z		à¤ªà¤žà¥à¤šà¤¤à¤¨à¥à¤¤à¥à¤°	inferred	Traditio_Fabularum		25.3176	82.9739			1
+2023-12-24T13:38:48.223Z	Post-12th century	The_Morall_Philosophie_of_Doni	tookPlaceAt	Europe		43.7696	11.2558	Tilley (1939)		1
+2023-12-24T13:38:48.223Z	Post-12th century	The_Morall_Philosophie_of_Doni	isDerivativeOf	à¤ªà¤žà¥à¤šà¤¤à¤¨à¥à¤¤à¥à¤°		43.7696	11.2558	Tilley (1939)		1
+2023-12-24T13:38:48.223Z	Ancient Greece	Aesop_Fables	carriedOutBy	Unknown_Greek_Transmitters		37.9838	23.7275	Patel & Rastogi		1
+2023-12-24T13:38:48.223Z	Ancient Greece	Aesop_Fables	tookPlaceAt	Ancient_Greece		37.9838	23.7275	Patel & Rastogi		1
+2023-12-24T13:38:48.223Z	Ancient Greece	Aesop_Fables	isDerivativeOf	à¤ªà¤žà¥à¤šà¤¤à¤¨à¥à¤¤à¥à¤°		37.9838	23.7275	Patel & Rastogi		1
+2023-12-24T13:38:48.223Z	19th century CE	Hans_Christian_Andersen_Stories	refersTo	European_Folklore		55.6761	12.5683	N/A		1
+2023-12-24T13:38:48.223Z	19th century CE	European_Folklore	refersTo	Panchatantra_Themes		48.8566	2.3522	N/A		1
+2023-12-24T13:38:48.223Z	7thâ€“12th century CE	à¤ªà¤žà¥à¤šà¤¤à¤¨à¥à¤¤à¥à¤°_temple_relief_carvings	isIconographicallyLinkedTo	Panchatantra		15.3176	75.7139	Cohen & Shehada (2017)		1
+2023-12-24T13:38:48.223Z	7thâ€“12th century CE	à¤ªà¤žà¥à¤šà¤¤à¤¨à¥à¤¤à¥à¤°_temple_relief_carvings	tookPlaceAt	Karnataka_temple_sites		15.3176	75.7139	Cohen & Shehada (2017)		1
+2023-12-24T13:38:48.223Z	Post-12th century	The_Fables_of_Bidpai	tookPlaceAt	Europe		48.8566	2.3522	Tilley (1939)		1
+2023-12-24T13:38:48.223Z	Post-12th century	The_Fables_of_Bidpai	isDerivativeOf	à¤ªà¤žà¥à¤šà¤¤à¤¨à¥à¤¤à¥à¤°		48.8566	2.3522	Tilley (1939)		1
+2023-12-24T13:38:48.223Z	Post-12th century	The_Morall_Philosophie_of_Doni	carriedOutBy	Unknown_European_Translators		43.7696	11.2558	Tilley (1939)		1
