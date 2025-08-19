@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ex="http://example.org/heritage#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/heritage#รามเก_ยรต__">
+    <ex:isDerivativeOf rdf:resource="http://example.org/heritage#र_म_यण"/>
+    <rdfs:label xml:lang="th">รามเกียรติ์</rdfs:label>
+    <rdf:type rdf:resource="http://example.org/heritage#F2_Expression"/>
+    <rdf:type rdf:resource="http://example.org/heritage#E7_Activity"/>
+    <ex:hasEnglishLabel rdf:resource="http://example.org/heritage#Ramakien"/>
+    <ex:carriedOutBy rdf:resource="http://example.org/heritage#King_Rama_I"/>
+    <ex:tookPlaceAt rdf:resource="http://example.org/heritage#Thai_Royal_Court"/>
+    <ex:showsFeaturesOf rdf:resource="http://example.org/heritage#Buddhist_Cosmology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Indian_Buddhist_Art">
+    <ex:showsFeaturesOf rdf:resource="http://example.org/heritage#Ajanta_Murals"/>
+    <rdf:type rdf:resource="http://example.org/heritage#F1_Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_35">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#ابن_المقفع"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#hasEnglishLabel"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Ibnal_Muqaffa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#tookPlaceAt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/heritage#E7_Activity"/>
+    <rdfs:range rdf:resource="http://example.org/heritage#E53_Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_4">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#كليلة_ودمنة"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#isDerivativeOf"/>
+    <rdf:object rdf:resource="http://example.org/heritage#पञ_चतन_त_र"/>
+    <ex:source xml:lang="en">Gutas Dimitri. "Greek Thought Arabic Culture"</ex:source>
+    <ex:timePeriod xml:lang="en">8th century CE</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Thai_Royal_Court">
+    <rdf:type rdf:resource="http://example.org/heritage#E53_Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_15">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#รามเก_ยรต__"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#hasEnglishLabel"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Ramakien"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Chola_Bronze_Sculptures">
+    <rdfs:label xml:lang="de">Chola_Bronze_Sculptures</rdfs:label>
+    <rdf:type rdf:resource="http://example.org/heritage#F3_Manifestation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_37">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#पञ_चतन_त_र"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#indirectlyInfluenced"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Traditio_Fabularum"/>
+    <ex:medium_of_transmission xml:lang="en">inferred</ex:medium_of_transmission>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#كليلة_ودمنة">
+    <ex:carriedOutBy rdf:resource="http://example.org/heritage#ابن_المقفع"/>
+    <rdfs:label xml:lang="ar">كليلة_ودمنة</rdfs:label>
+    <rdf:type rdf:resource="http://example.org/heritage#E7_Activity"/>
+    <rdf:type rdf:resource="http://example.org/heritage#F2_Expression"/>
+    <ex:hasEnglishLabel rdf:resource="http://example.org/heritage#KalilawaDimna"/>
+    <ex:hasEnglishLabel rdf:resource="http://example.org/heritage#KalilawaDimnaReframing"/>
+    <ex:tookPlaceAt rdf:resource="http://example.org/heritage#الخلافة_العباسية"/>
+    <ex:isDerivativeOf rdf:resource="http://example.org/heritage#पञ_चतन_त_र"/>
+    <ex:usedSpecificObject rdf:resource="http://example.org/heritage#Adab"/>
+    <ex:wasCreatedBy rdf:resource="http://example.org/heritage#ابن_المقفع"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_19">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#รามเก_ยรต__"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#showsFeaturesOf"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Buddhist_Cosmology"/>
+    <ex:source xml:lang="en">Baker Chris. "The Ramakien"</ex:source>
+    <ex:timePeriod xml:lang="en">18th century CE</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_10">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#Traditio_Fabularum"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#wasInfluencedBy"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Directorium_Humanae_Vitae"/>
+    <ex:source xml:lang="en">Zipes Jack. "The Aesop’s Fables"</ex:source>
+    <ex:timePeriod xml:lang="en">13th–18th century CE</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_20">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#كليلة_ودمنة"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#usedSpecificObject"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Adab"/>
+    <ex:source xml:lang="en">Gutas Dimitri. "Greek Thought Arabic Culture"</ex:source>
+    <ex:timePeriod xml:lang="en">8th century CE</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_18">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#Dance_Drama_Performance"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#usedSpecificObject"/>
+    <rdf:object rdf:resource="http://example.org/heritage#र_म_यण"/>
+    <ex:source xml:lang="en">Richman Paula. "Many Ramayanas"</ex:source>
+    <ex:timePeriod xml:lang="en">18th century CE onward</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_29">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#Sri_Lankan_Murals"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#showsFeaturesOf"/>
+    <rdf:object rdf:resource="http://example.org/heritage#र_म_यण"/>
+    <ex:source xml:lang="en">Fisher Robert. "Buddhist Art"</ex:source>
+    <ex:timePeriod xml:lang="en">5th–12th century CE</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#KalilawaDimnaReframing">
+    <rdfs:label xml:lang="mt">KalilawaDimnaReframing</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_25">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#Vishnu_Sharma"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#hasCreated"/>
+    <rdf:object rdf:resource="http://example.org/heritage#पञ_चतन_त_र"/>
+    <ex:source xml:lang="en">Behl Aditya. "Love's Subtle Magic"</ex:source>
+    <ex:timePeriod xml:lang="en">Approx. 3rd century BCE</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#usedSpecificObject">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/heritage#E7_Activity"/>
+    <rdfs:range rdf:resource="http://example.org/heritage#F1_Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_16">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#รามเก_ยรต__"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#tookPlaceAt"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Thai_Royal_Court"/>
+    <ex:source xml:lang="en">Reynolds Craig J. "Seditious Histories"</ex:source>
+    <ex:timePeriod xml:lang="en">18th–19th century CE</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_32">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#Bidriware_Creation"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#wasProducedBy"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Persian_Artisans"/>
+    <ex:source xml:lang="en">Stronge, Susan. "Bidri ware: inlaid metalwork from India." (1985).</ex:source>
+    <ex:timePeriod xml:lang="en">14th–17th century CE</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#wasCreatedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/heritage#F2_Expression"/>
+    <rdfs:range rdf:resource="http://example.org/heritage#E39_Actor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Directorium_Humanae_Vitae">
+    <ex:isDerivativeOf rdf:resource="http://example.org/heritage#תרגומים_לעברית"/>
+    <rdf:type rdf:resource="http://example.org/heritage#F2_Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_33">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#كليلة_ودمنة"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#wasCreatedBy"/>
+    <rdf:object rdf:resource="http://example.org/heritage#ابن_المقفع"/>
+    <ex:source xml:lang="en">Gutas Dimitri. "Greek Thought Arabic Culture"</ex:source>
+    <ex:timePeriod xml:lang="en">8th century CE</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#showsFeaturesOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/heritage#F1_Work"/>
+    <rdfs:range rdf:resource="http://example.org/heritage#F3_Manifestation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Southeast_Asian_Temple_Art">
+    <ex:showsFeaturesOf rdf:resource="http://example.org/heritage#Chola_Bronze_Sculptures"/>
+    <rdf:type rdf:resource="http://example.org/heritage#F1_Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#isDerivativeOf">
+    <rdfs:label xml:lang="de">isDerivativeOf</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/heritage#F2_Expression"/>
+    <rdfs:range rdf:resource="http://example.org/heritage#F1_Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_8">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#Directorium_Humanae_Vitae"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#isDerivativeOf"/>
+    <rdf:object rdf:resource="http://example.org/heritage#תרגומים_לעברית"/>
+    <ex:source xml:lang="en">Pollock Sheldon. "Language of the Gods"</ex:source>
+    <ex:timePeriod xml:lang="en">13th century CE</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_14">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#รามเก_ยรต__"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#carriedOutBy"/>
+    <rdf:object rdf:resource="http://example.org/heritage#King_Rama_I"/>
+    <ex:source xml:lang="en">Baker Chris. "The Ramakien"</ex:source>
+    <ex:timePeriod xml:lang="en">1780s</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Persian_Artisans">
+    <rdfs:label xml:lang="fr">Persian_Artisans</rdfs:label>
+    <rdf:type rdf:resource="http://example.org/heritage#E39_Actor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_6">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#תרגומים_לעברית"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#isDerivativeOf"/>
+    <rdf:object rdf:resource="http://example.org/heritage#पञ_चतन_त_र"/>
+    <ex:source xml:lang="en">Behl Aditya. "Love's Subtle Magic"</ex:source>
+    <ex:timePeriod xml:lang="en">12th century CE</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#पञ_चतन_त_र">
+    <rdfs:label xml:lang="mr">पञ्चतन्त्र</rdfs:label>
+    <rdf:type rdf:resource="http://example.org/heritage#F1_Work"/>
+    <ex:hasEnglishLabel rdf:resource="http://example.org/heritage#Panchatantra"/>
+    <ex:indirectlyInfluenced rdf:resource="http://example.org/heritage#Directorium_Humanae_Vitae"/>
+    <ex:indirectlyInfluenced rdf:resource="http://example.org/heritage#Traditio_Fabularum"/>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.3176</ex:latitude>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">82.9739</ex:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_30">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#Indian_Buddhist_Art"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#showsFeaturesOf"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Ajanta_Murals"/>
+    <ex:source xml:lang="en">Sivaramamurti C. "Indian Painting"</ex:source>
+    <ex:timePeriod xml:lang="en">5th century CE</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#indirectlyInfluenced">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Sri_Lankan_Murals">
+    <ex:showsFeaturesOf rdf:resource="http://example.org/heritage#र_म_यण"/>
+    <rdf:type rdf:resource="http://example.org/heritage#F3_Manifestation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#ابن_المقفع">
+    <rdfs:label xml:lang="ar">ابن_المقفع</rdfs:label>
+    <rdf:type rdf:resource="http://example.org/heritage#E39_Actor"/>
+    <ex:hasEnglishLabel rdf:resource="http://example.org/heritage#Ibnal_Muqaffa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_1">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#كليلة_ودمنة"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#carriedOutBy"/>
+    <rdf:object rdf:resource="http://example.org/heritage#ابن_المقفع"/>
+    <ex:source xml:lang="en">Gutas Dimitri. "Greek Thought Arabic Culture"</ex:source>
+    <ex:timePeriod xml:lang="en">8th century CE</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_2">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#كليلة_ودمنة"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#hasEnglishLabel"/>
+    <rdf:object rdf:resource="http://example.org/heritage#KalilawaDimna"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_12">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#รามเก_ยรต__"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#hasEnglishLabel"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Ramakien"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_17">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#รามเก_ยรต__"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#hasEnglishLabel"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Ramakien"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_31">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#Southeast_Asian_Temple_Art"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#showsFeaturesOf"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Chola_Bronze_Sculptures"/>
+    <ex:source xml:lang="en">Harle J.C. "Art &amp; Architecture of Indian Subcontinent"</ex:source>
+    <ex:timePeriod xml:lang="en">9th–13th century CE</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_3">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#كليلة_ودمنة"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#tookPlaceAt"/>
+    <rdf:object rdf:resource="http://example.org/heritage#الخلافة_العباسية"/>
+    <ex:source xml:lang="en">Gutas Dimitri. "Greek Thought Arabic Culture"</ex:source>
+    <ex:timePeriod xml:lang="en">8th–10th century CE</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Wayang_Kulit_Performance">
+    <ex:usedSpecificObject rdf:resource="http://example.org/heritage#र_म_यण"/>
+    <rdfs:label xml:lang="id">Wayang_Kulit_Performance</rdfs:label>
+    <rdf:type rdf:resource="http://example.org/heritage#E7_Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_27">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#Wayang_Kulit_Performance"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#usedSpecificObject"/>
+    <rdf:object rdf:resource="http://example.org/heritage#र_म_यण"/>
+    <ex:source xml:lang="en">Baker Chris. "The Ramakien"</ex:source>
+    <ex:timePeriod xml:lang="en">16th century CE onward</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Dhamma">
+    <rdfs:label xml:lang="sv">Dhamma</rdfs:label>
+    <rdf:type rdf:resource="http://example.org/heritage#F1_Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#hasCreated">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/heritage#E39_Actor"/>
+    <rdfs:range rdf:resource="http://example.org/heritage#F1_Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_34">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#كليلة_ودمنة"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#hasEnglishLabel"/>
+    <rdf:object rdf:resource="http://example.org/heritage#KalilawaDimna"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_28">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#Cambodian_Theater_Performance"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#usedSpecificObject"/>
+    <rdf:object rdf:resource="http://example.org/heritage#र_म_यण"/>
+    <ex:source xml:lang="en">Reynolds Craig J. "Seditious Histories"</ex:source>
+    <ex:timePeriod xml:lang="en">15th century CE onward</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#wasInfluencedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/heritage#F1_Work"/>
+    <rdfs:range rdf:resource="http://example.org/heritage#F2_Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Valmiki">
+    <ex:hasCreated rdf:resource="http://example.org/heritage#र_म_यण"/>
+    <rdfs:label xml:lang="fi">Valmiki</rdfs:label>
+    <rdf:type rdf:resource="http://example.org/heritage#E39_Actor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#الخلافة_العباسية">
+    <rdfs:label xml:lang="ar">الخلافة_العباسية</rdfs:label>
+    <rdf:type rdf:resource="http://example.org/heritage#E53_Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_26">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#पञ_चतन_त_र"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#hasEnglishLabel"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Panchatantra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_13">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#र_म_यण"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#hasEnglishLabel"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Ramayana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Bidriware_Creation">
+    <ex:wasProducedBy rdf:resource="http://example.org/heritage#Persian_Artisans"/>
+    <rdfs:label xml:lang="cy">Bidriware_Creation</rdfs:label>
+    <rdf:type rdf:resource="http://example.org/heritage#E70_Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#wasProducedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/heritage#E70_Thing"/>
+    <rdfs:range rdf:resource="http://example.org/heritage#E39_Actor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Buddhist_Cosmology">
+    <rdf:type rdf:resource="http://example.org/heritage#F1_Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Ibnal_Muqaffa">
+    <rdfs:label xml:lang="xh">Ibnal-Muqaffa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_21">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#كليلة_ودمنة"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#hasEnglishLabel"/>
+    <rdf:object rdf:resource="http://example.org/heritage#KalilawaDimnaReframing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_36">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#पञ_चतन_त_र"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#indirectlyInfluenced"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Directorium_Humanae_Vitae"/>
+    <ex:medium_of_transmission xml:lang="en">inferred</ex:medium_of_transmission>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Cambodian_Theater_Performance">
+    <ex:usedSpecificObject rdf:resource="http://example.org/heritage#र_म_यण"/>
+    <rdf:type rdf:resource="http://example.org/heritage#E7_Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Ramayana">
+    <rdfs:label xml:lang="id">Ramayana</rdfs:label>
+    <ex:usedSpecificObject rdf:resource="http://example.org/heritage#Dhamma"/>
+    <rdf:type rdf:resource="http://example.org/heritage#E7_Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Ajanta_Murals">
+    <rdf:type rdf:resource="http://example.org/heritage#F3_Manifestation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_11">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#รามเก_ยรต__"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#isDerivativeOf"/>
+    <rdf:object rdf:resource="http://example.org/heritage#र_म_यण"/>
+    <ex:source xml:lang="en">Baker Chris. "The Ramakien"</ex:source>
+    <ex:timePeriod xml:lang="en">18th century CE</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_22">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#Ramayana"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#usedSpecificObject"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Dhamma"/>
+    <ex:source xml:lang="en">Pollock Sheldon. "Language of the Gods"</ex:source>
+    <ex:timePeriod xml:lang="en">13th century CE onward</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Traditio_Fabularum">
+    <ex:wasInfluencedBy rdf:resource="http://example.org/heritage#Directorium_Humanae_Vitae"/>
+    <rdf:type rdf:resource="http://example.org/heritage#F1_Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_24">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#र_म_यण"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#hasEnglishLabel"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Ramayana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_23">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#Valmiki"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#hasCreated"/>
+    <rdf:object rdf:resource="http://example.org/heritage#र_म_यण"/>
+    <ex:source xml:lang="en">Richman Paula. "Many Ramayanas"</ex:source>
+    <ex:timePeriod xml:lang="en">Approx. 5th century BCE</ex:timePeriod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Dance_Drama_Performance">
+    <ex:usedSpecificObject rdf:resource="http://example.org/heritage#र_म_यण"/>
+    <rdf:type rdf:resource="http://example.org/heritage#E7_Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Adab">
+    <rdf:type rdf:resource="http://example.org/heritage#F1_Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_5">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#पञ_चतन_त_र"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#hasEnglishLabel"/>
+    <rdf:object rdf:resource="http://example.org/heritage#Panchatantra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#תרגומים_לעברית">
+    <ex:isDerivativeOf rdf:resource="http://example.org/heritage#पञ_चतन_त_र"/>
+    <rdfs:label xml:lang="he">תרגומים_לעברית</rdfs:label>
+    <rdf:type rdf:resource="http://example.org/heritage#F2_Expression"/>
+    <ex:hasEnglishLabel rdf:resource="http://example.org/heritage#HebrewTranslations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#Vishnu_Sharma">
+    <ex:hasCreated rdf:resource="http://example.org/heritage#पञ_चतन_त_र"/>
+    <rdf:type rdf:resource="http://example.org/heritage#E39_Actor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#hasEnglishLabel">
+    <rdfs:label xml:lang="it">hasEnglishLabel</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_7">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#תרגומים_לעברית"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#hasEnglishLabel"/>
+    <rdf:object rdf:resource="http://example.org/heritage#HebrewTranslations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#KalilawaDimna">
+    <rdfs:label xml:lang="mt">KalilawaDimna</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#carriedOutBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/heritage#E7_Activity"/>
+    <rdfs:range rdf:resource="http://example.org/heritage#E39_Actor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#statement_9">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="http://example.org/heritage#תרגומים_לעברית"/>
+    <rdf:predicate rdf:resource="http://example.org/heritage#hasEnglishLabel"/>
+    <rdf:object rdf:resource="http://example.org/heritage#HebrewTranslations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#King_Rama_I">
+    <rdf:type rdf:resource="http://example.org/heritage#E39_Actor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/heritage#र_म_यण">
+    <rdfs:label xml:lang="mr">रामायण</rdfs:label>
+    <rdf:type rdf:resource="http://example.org/heritage#F1_Work"/>
+    <ex:hasEnglishLabel rdf:resource="http://example.org/heritage#Ramayana"/>
+  </rdf:Description>
+</rdf:RDF>
