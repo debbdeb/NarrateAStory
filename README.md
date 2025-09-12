@@ -1,25 +1,61 @@
-NarrateAStory.com is a platform for heritage conservation by documenting cultural heritage and shortwave radio signal strength at heritage sites. It provides a collaborative space where the general public can co-create and contribute data about lesser-known and unknown heritage sites, practices, and cultural artifacts. Through this platform, users can share knowledge, stories, and research to help preserve and promote global heritage.
+NarrateAStory.com is a digital storytelling platform focused on geospatial technology, crowdsourced data analytics, and ontologies. It explores several fields — such as cultural heritage (e.g., heritage documentation), healthcare (e.g., tracking visual attention and sentiment), and education (e.g., hands-on simulations) — to create more engaging learning experiences. It provides a collaborative space where the general public can co-create data for research and tell stories that share knowledge, celebrate diverse cultures, and help protect our global heritage.
 
-Key Features:
+About the Project
 
-Collaborative Heritage Mapping: A platform for users to contribute and co-create information about ancient heritage from around the world.
+NarrateAStory.com is a digital storytelling platform focused on:
 
-Heritage Data Contributions: Users can submit data about heritage sites, traditions, and cultural landmarks, enriching the shared knowledge base.
+🌐 Geospatial technologies
 
-OWL Heritage Ontology: NarrateAStory.com offers an OWL-formatted heritage ontology that structures heritage-related data, enabling compatibility for research, databases, and further data integration.
+🤝 Crowdsourced data analytics
 
-Features for Contributors:
+🧠 Semantic ontologies (OWL)
 
-Add New Heritage Entries: Contribute new heritage data, including site descriptions, historical significance, geographical details, and more.
+It supports digital storytelling and collaborative knowledge sharing across several domains:
 
-Use of OWL Ontology:
+🏛️ Cultural Heritage – e.g., documenting historic sites, traditions, and practices
 
-The website also features an OWL-formatted ontology that structures heritage data in a standardized way. This helps with:
+🏥 Healthcare – e.g., tracking visual attention and sentiment analysis
 
-Semantic Data Representation: Ensuring clear relationships between different heritage elements (e.g., artifacts, locations, cultural practices).
+🎓 Education – e.g., analog simulations for immersive learning
 
-Interoperability: Enabling data exchange with other platforms, databases, and projects.
+The platform provides a collaborative space where anyone — from researchers to the general public — can co-create data, tell stories, and help preserve global heritage.
 
-Explore the platform at NarrateAStory.com.
+✨ Key Features
+🗺️ Collaborative Heritage Mapping: Contribute and co-create knowledge about ancient heritage from around the world using an open, participatory model.
 
-Citation: Deb B (2024). Collaborative Heritage Mapping through Publicly Sourced Triplets. Primitive Tider. ISSN 1501-0430. 26, p. 95–103. doi: https://doi.org/10.5617/pt.12093. 
+🏛️ Heritage Data Contributions: Submit data about heritage sites, cultural traditions, and local landmarks to enrich a shared and growing knowledge base.
+
+🧩 OWL Heritage Ontology: NarrateAStory.com provides a formal OWL-formatted ontology for structuring heritage-related data, enabling:
+
+🔗 Semantic representation of cultural elements (e.g., artifacts, locations, practices)
+
+🔄 Interoperability with external databases, systems, and research projects
+
+🛠️ Features for Contributors
+
+📌 Add New Heritage Entries
+Submit new data including descriptions, significance, geolocation, categories, and more.
+
+🧠 Use Semantic Ontology Tools
+Structure contributions using the platform’s standardized OWL ontology for better integration and machine-readability.
+
+🔍 Support for Research & Education
+Your contributions help support research initiatives, educational simulations, and public storytelling around heritage and sustainability.
+
+💬 Get Involved
+
+Whether you're a researcher, educator, student, or heritage enthusiast — you can contribute!
+
+🌐 Visit: NarrateAStory.com
+
+🧑‍💻 Contribute heritage data
+
+🤝 Collaborate on research and storytelling projects
+
+🧾 Citation
+
+Deb, B. (2024). Collaborative Heritage Mapping through Publicly Sourced Triplets. Primitive Tider, ISSN 1501-0430, Vol. 26, pp. 95–103.
+https://doi.org/10.5617/pt.12093
+
+
+
