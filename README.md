@@ -1,4 +1,4 @@
-NarrateAStory.com is a digital storytelling platform focused on geospatial technology, crowdsourced data analytics, and ontologies. It explores several fields — such as cultural heritage (e.g., heritage documentation), healthcare (e.g., tracking visual attention and sentiment), and education (e.g., hands-on simulations) — to create more engaging learning experiences. It provides a collaborative space where the general public can co-create data for research and tell stories that share knowledge, celebrate diverse cultures, and help protect our global heritage.
+NarrateAStory.com is a digital storytelling platform focused on geospatial technology, crowdsourced data analytics, and ontologies. It explores several fields — such as cultural heritage (e.g., heritage documentation), healthcare (e.g., tracking visual attention and sentiment), and education (e.g., agent-based simulations) — to create more engaging learning experiences. It provides a collaborative space where the general public can co-create data for research and tell stories that share knowledge, celebrate diverse cultures, and help protect our global heritage.
 
 About the Project
 
@@ -16,7 +16,7 @@ It supports digital storytelling and collaborative knowledge sharing across seve
 
 🏥 Healthcare – e.g., tracking visual attention and sentiment analysis
 
-🎓 Education – e.g., analog simulations for immersive learning
+🎓 Education – e.g., agent-based simulations for immersive learning
 
 The platform provides a collaborative space where anyone — from researchers to the general public — can co-create data, tell stories, and help preserve global heritage.
 
