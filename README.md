@@ -1,61 +1,90 @@
-NarrateAStory.com is a data storytelling platform focused on geospatial and XR technologies, crowdsourced behavior analysis, and ontologies. It explores several fields — such as cultural heritage (e.g., heritage documentation), healthcare (e.g., tracking visual attention and sentiment), and education (e.g., agent-based simulations) — to create more engaging learning experiences. It provides a collaborative space where the general public can co-create data for research and tell stories that share knowledge, celebrate diverse cultures, and help protect our global heritage.
+# NarrateAStory.com
 
-About the Project
+NarrateAStory.com is a **data storytelling and collaborative research platform** focused on **geospatial technologies, extended reality (XR), crowdsourced data collection, and semantic ontologies**.  
+The platform supports the use of **data science and machine learning methods** for organizing, analyzing, and interpreting structured and semi-structured data in a research and educational context.
 
-NarrateAStory.com is a data storytelling platform focused on:
+NarrateAStory.com explores multiple application areas — including **cultural heritage**, **healthcare-related research**, and **education** — with the aim of supporting **engaging, data-driven learning and knowledge-sharing experiences**.  
+It provides an open, participatory space where researchers and members of the public can co-create data, contribute observations, and share stories that help document and preserve global heritage.
 
-🌐 Geospatial technologies
+---
 
-🤝 Crowdsourced data analytics
+## About the Project
 
-🧠 Semantic ontologies (OWL)
+NarrateAStory.com focuses on:
 
-It supports data storytelling and collaborative knowledge sharing across several domains:
+- 🌐 **Geospatial technologies** for spatial data representation and visualization  
+- 🤝 **Crowdsourced data analytics** supporting descriptive analysis and research workflows  
+- 🧠 **Semantic ontologies and knowledge graphs (OWL/RDF)** for structured, machine-readable data  
 
-🏛️ Cultural Heritage – e.g., documenting historic sites, traditions, and practices
+The platform supports collaborative data storytelling and knowledge sharing across several domains:
 
-🏥 Healthcare – e.g., tracking visual attention and sentiment analysis
+- 🏛️ **Cultural Heritage**  
+  *e.g., documentation of historic sites, traditions, and practices*
 
-🎓 Education – e.g., agent-based simulations for immersive learning
+- 🏥 **Healthcare-related research**  
+  *e.g., analysis of visual attention data and self-reported sentiment for research and educational purposes*
 
-The platform provides a collaborative space where anyone — from researchers to the general public — can co-create data, tell stories, and help preserve global heritage.
+- 🎓 **Education**  
+  *e.g., agent-based simulations and data-driven learning environments*
 
-✨ Key Features
-🗺️ Collaborative Heritage Mapping: Contribute and co-create knowledge about ancient heritage from around the world using an open, participatory model.
+NarrateAStory.com is intended to support **research, education, and public engagement**, and is not designed for clinical, diagnostic, or decision-making use.
 
-🏛️ Heritage Data Contributions: Submit data about heritage sites, cultural traditions, and local landmarks to enrich a shared and growing knowledge base.
+---
 
-🧩 OWL Heritage Ontology: NarrateAStory.com provides a formal OWL-formatted ontology for structuring heritage-related data, enabling:
+## Key Features
 
-🔗 Semantic representation of cultural elements (e.g., artifacts, locations, practices)
+### 🗺️ Collaborative Heritage Mapping
+An open, participatory approach that enables contributors to co-create and explore geospatial knowledge related to cultural and historical heritage.
 
-🔄 Interoperability with external databases, systems, and research projects
+### 🏛️ Heritage Data Contributions
+Users can submit structured information about heritage sites, cultural traditions, and local landmarks, contributing to a shared and evolving knowledge base.
 
-🛠️ Features for Contributors
+### 🧩 OWL-Based Heritage Ontology
+NarrateAStory.com provides a **formal OWL-formatted ontology** to support:
 
-📌 Add New Heritage Entries
-Submit new data including descriptions, significance, geolocation, categories, and more.
+- 🔗 **Structured semantic representation** of cultural elements (e.g., artifacts, locations, practices)  
+- 🔄 **Interoperability** with external datasets, digital heritage systems, and research infrastructures  
+- 📊 **Machine-readable data** suitable for computational analysis, knowledge-based querying, and exploratory machine learning workflows  
 
-🧠 Use Semantic Ontology Tools
-Structure contributions using the platform’s standardized OWL ontology for better integration and machine-readability.
+---
 
-🔍 Support for Research & Education
-Your contributions help support research initiatives, educational simulations, and public storytelling around heritage and sustainability.
+## Features for Contributors
 
-💬 Get Involved
+### 📌 Add New Heritage Entries
+Contributors can submit data including descriptions, cultural significance, geolocation, categories, and related metadata.
 
-Whether you're a researcher, educator, student, or heritage enthusiast — you can contribute!
+### 🧠 Use Semantic Ontology Tools
+Contributions are structured using standardized **ontology-driven schemas**, supporting data consistency, reuse, and integration.
 
-🌐 Visit: NarrateAStory.com
+### 🔍 Support for Research & Education
+Contributed data may be used to support:
+- Academic and applied research
+- Educational simulations and learning activities
+- Public data storytelling related to heritage, sustainability, and cultural diversity
 
-🧑‍💻 Contribute heritage data
+---
 
-🤝 Collaborate on research and storytelling projects
+## Research and Technical Scope
 
-🧾 Citation
+NarrateAStory.com adopts **semantic web technologies, geospatial data methods, and data science techniques** to support structured data integration and analysis.  
+Ongoing research explores the **responsible use of machine learning and rule-based methods** to assist with data exploration, pattern identification, and simulation in geospatial and educational contexts.
 
-Deb, B. (2024). Collaborative Heritage Mapping through Publicly Sourced Triplets. Primitive Tider, ISSN 1501-0430, Vol. 26, pp. 95–103.
+Any use of computational methods is intended to **support human interpretation and decision-making**, rather than replace it.
+
+---
+
+## Get Involved
+
+Researchers, educators, students, and members of the public are welcome to participate.
+
+- 🌐 Visit: **NarrateAStory.com**
+- 🧑‍💻 Contribute heritage data
+- 🤝 Collaborate on research and data storytelling projects
+
+---
+
+## Citation
+
+Deb, B. (2024). *Collaborative Heritage Mapping through Publicly Sourced Triplets.*  
+**Primitive Tider**, ISSN 1501-0430, Vol. 26, pp. 95–103.  
 https://doi.org/10.5617/pt.12093
-
-
-
