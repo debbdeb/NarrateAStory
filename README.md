@@ -24,7 +24,7 @@ The platform supports collaborative data storytelling and knowledge sharing acro
 - 🎓 **Education**  
   *e.g., agent-based simulations and data-driven learning environments*
 
-NarrateAStory.com is intended to support **research, education, and public engagement**, and is not designed for clinical, diagnostic, or decision-making use.
+NarrateAStory.com is intended to support **research, education, and public engagement**, and is not designed for decision-making use.
 
 ---
 
@@ -66,7 +66,7 @@ Contributed data may be used to support:
 NarrateAStory.com adopts **semantic web technologies, geospatial data methods, and data science techniques** to support structured data integration and analysis.  
 Ongoing research explores the **responsible use of machine learning and rule-based methods** to assist with data exploration, pattern identification, and simulation in geospatial and educational contexts.
 
-Any use of computational methods is intended to **support human interpretation and decision-making**, rather than replace it.
+Any use of computational methods is intended to **support human interpretation**, rather than replace it.
 
 ---
 
