@@ -1,6 +1,6 @@
 # NarrateAStory.com
 
-NarrateAStory.com is a **data storytelling and collaborative research platform** focused on **geospatial technologies, extended reality (XR), crowdsourced data collection, and semantic ontologies**.  
+NarrateAStory.com is a **data storytelling and collaborative research platform** focused on **heritage ontology, story maps, crowdsourced data collection, and immersive storytelling**.  
 The platform supports the use of **data science and machine learning methods** for organizing, analyzing, and interpreting structured and semi-structured data in a research and educational context.
 
 NarrateAStory.com explores multiple application areas — including **cultural heritage** and **education** — with the aim of supporting **engaging, data-driven learning and knowledge-sharing experiences**.  
