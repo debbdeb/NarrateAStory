@@ -1,7 +1,7 @@
 # NarrateAStory.com
 
-NarrateAStory.com is a **data storytelling and collaborative research platform** focused on **heritage ontology, story maps, crowdsourced data collection, and immersive storytelling**.  
-The platform supports the use of **data science and machine learning methods** for organizing, analyzing, and interpreting structured and semi-structured data in a research and educational context.
+NarrateAStory.com is a **data storytelling and collaborative research platform** focused on **rare heritage ontology, story maps, and immersive storytelling**.  
+The platform supports the use of **AI** for organizing, analyzing, and interpreting structured and semi-structured data in a research and educational context.
 
 NarrateAStory.com explores multiple application areas — including **cultural heritage** and **education** — with the aim of supporting **engaging, data-driven learning and knowledge-sharing experiences**.  
 It provides an open, participatory space where researchers and members of the public can co-create data, contribute observations, and share stories that help document and preserve global heritage.
@@ -19,12 +19,12 @@ NarrateAStory.com focuses on:
 The platform supports collaborative data storytelling and knowledge sharing across several domains:
 
 - 🏛️ **Cultural Heritage**  
-  *e.g., documentation of historic sites, traditions, and practices*
+  *e.g., documentation of rare historic sites, traditions, and practices*
 
 - 🎓 **Education**  
-  *e.g., agent-based simulations and data-driven learning environments*
+  *e.g., data-driven learning environments*
 
-NarrateAStory.com is intended to support **research, education, and public engagement**, and is not designed for decision-making use.
+NarrateAStory.com is intended to support **research, education, and public engagement for rare heritage**, and is not designed for decision-making use.
 
 ---
 
@@ -41,32 +41,30 @@ NarrateAStory.com provides a **formal OWL-formatted ontology** to support:
 
 - 🔗 **Structured semantic representation** of cultural elements (e.g., artifacts, locations, practices)  
 - 🔄 **Interoperability** with external datasets, digital heritage systems, and research infrastructures  
-- 📊 **Machine-readable data** suitable for computational analysis, knowledge-based querying, and exploratory machine learning workflows  
+- 📊 **Machine-readable data** suitable for computational analysis, knowledge-based querying, and AI workflows  
 
 ---
 
 ## Features for Contributors
 
 ### 📌 Add New Heritage Entries
-Contributors can submit data including descriptions, cultural significance, geolocation, categories, and related metadata.
+Contributors can submit data including descriptions in triples, cultural significance, time period, altitude, and further reading link.
 
 ### 🧠 Use Semantic Ontology Tools
-Contributions are structured using standardized **ontology-driven schemas**, supporting data consistency, reuse, and integration.
+Contributions are structured using heuristic-based **ontology-driven schemas**, supporting data consistency, reuse, and integration.
 
 ### 🔍 Support for Research & Education
 Contributed data may be used to support:
 - Academic and applied research
-- Educational simulations and learning activities
+- Educational learning activities
 - Public data storytelling related to heritage, sustainability, and cultural diversity
 
 ---
 
 ## Research and Technical Scope
 
-NarrateAStory.com adopts **semantic web technologies, geospatial data methods, and data science techniques** to support structured data integration and analysis.  
-Ongoing research explores the **responsible use of machine learning and rule-based methods** to assist with data exploration, pattern identification, and simulation in geospatial and educational contexts.
-
-Any use of computational methods is intended to **support human interpretation**, rather than replace it.
+NarrateAStory.com adopts **semantic web technologies, geospatial data methods, and AI techniques** to support structured data integration and analysis.  
+Ongoing research explores the **integration of traditional rule-based methods with modern AI and immersive storytelling** to assist with data exploration, pattern identification, and simulation in geospatial and educational contexts.
 
 ---
 
@@ -75,8 +73,8 @@ Any use of computational methods is intended to **support human interpretation**
 Researchers, educators, students, and members of the public are welcome to participate.
 
 - 🌐 Visit: **NarrateAStory.com**
-- 🧑‍💻 Contribute heritage data
-- 🤝 Collaborate on research and data storytelling projects
+- 🧑‍💻 Contribute rare heritage data
+- 🤝 Participate in research and data storytelling projects
 
 ---
 
