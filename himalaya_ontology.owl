@@ -1,932 +1,401 @@
-<?xml version="1.0"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xml:base="http://example.org/himalaya.owl"
-         xmlns="http://example.org/himalaya.owl#"
-         xmlns:swrl="http://www.w3.org/2003/11/swrl#">
-
-<owl:Ontology rdf:about="http://example.org/himalaya.owl"/>
-
-<owl:ObjectProperty rdf:about="#hasStorySegment">
-  <rdfs:domain rdf:resource="#Thangka"/>
-  <rdfs:range rdf:resource="#StorySegment"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#depictsDeity">
-  <rdfs:domain rdf:resource="#Thangka"/>
-  <rdfs:range rdf:resource="#Deity"/>
-  <owl:propertyChainAxiom>
-    <rdf:Description>
-      <rdf:first rdf:resource="#hasStorySegment"/>
-      <rdf:rest>
-        <rdf:Description>
-          <rdf:first rdf:resource="#invokesDeity"/>
-          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-        </rdf:Description>
-      </rdf:rest>
-    </rdf:Description>
-  </owl:propertyChainAxiom>
-  <owl:propertyChainAxiom>
-    <rdf:Description>
-      <rdf:first rdf:resource="#hasStorySegment"/>
-      <rdf:rest>
-        <rdf:Description>
-          <rdf:first rdf:resource="#invokesDeity"/>
-          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-        </rdf:Description>
-      </rdf:rest>
-    </rdf:Description>
-  </owl:propertyChainAxiom>
-  <owl:propertyChainAxiom>
-    <rdf:Description>
-      <rdf:first rdf:resource="#hasStorySegment"/>
-      <rdf:rest>
-        <rdf:Description>
-          <rdf:first rdf:resource="#invokesDeity"/>
-          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-        </rdf:Description>
-      </rdf:rest>
-    </rdf:Description>
-  </owl:propertyChainAxiom>
-  <owl:propertyChainAxiom>
-    <rdf:Description>
-      <rdf:first rdf:resource="#hasStorySegment"/>
-      <rdf:rest>
-        <rdf:Description>
-          <rdf:first rdf:resource="#invokesDeity"/>
-          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-        </rdf:Description>
-      </rdf:rest>
-    </rdf:Description>
-  </owl:propertyChainAxiom>
-  <owl:propertyChainAxiom>
-    <rdf:Description>
-      <rdf:first rdf:resource="#hasStorySegment"/>
-      <rdf:rest>
-        <rdf:Description>
-          <rdf:first rdf:resource="#invokesDeity"/>
-          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-        </rdf:Description>
-      </rdf:rest>
-    </rdf:Description>
-  </owl:propertyChainAxiom>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#invokesDeity">
-  <rdfs:domain rdf:resource="#StorySegment"/>
-  <rdfs:range rdf:resource="#Deity"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#usedInRitual">
-  <rdfs:domain rdf:resource="#Thangka"/>
-  <rdfs:range rdf:resource="#Ritual"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#basedOnKnowledgeSystem">
-  <rdfs:domain rdf:resource="#Ritual"/>
-  <rdfs:range rdf:resource="#KnowledgeSystem"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#associatedWithVillage">
-  <rdfs:domain rdf:resource="#Thangka"/>
-  <rdfs:range rdf:resource="#Village"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#performedBy">
-  <rdfs:domain rdf:resource="#Ritual"/>
-  <rdfs:range rdf:resource="#Agent"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#usesArtifact">
-  <rdfs:domain rdf:resource="#Ritual"/>
-  <rdfs:range rdf:resource="#CulturalEntity"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#expressesThrough">
-  <rdfs:domain rdf:resource="#Ritual"/>
-  <rdfs:range rdf:resource="#StorySegment"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#locatedAt">
-  <rdfs:domain rdf:resource="#Thangka"/>
-  <rdfs:range rdf:resource="#Village"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#documents">
-  <rdfs:domain rdf:resource="#CulturalEntity"/>
-  <rdfs:range rdf:resource="#CulturalEntity"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#associatedWithRitual">
-  <rdfs:domain rdf:resource="#CulturalEntity"/>
-  <rdfs:range rdf:resource="#Ritual"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#occursAt">
-  <rdfs:domain rdf:resource="#Event"/>
-  <rdfs:range rdf:resource="#Place"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#IncompatibleWith">
-  <rdfs:domain rdf:resource="#KnowledgeSystem"/>
-  <rdfs:range rdf:resource="#KnowledgeSystem"/>
-</owl:ObjectProperty>
-
-<owl:DatatypeProperty rdf:about="#timestamp">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:domain rdf:resource="#Entity"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#description">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:domain rdf:resource="#CulturalEntity"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#latitude">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:domain rdf:resource="#Entity"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#longitude">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:domain rdf:resource="#Entity"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#altitude">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:domain rdf:resource="#Entity"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#further_reading">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:domain rdf:resource="#Entity"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#timePeriod">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:domain rdf:resource="#Entity"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-</owl:DatatypeProperty>
-
-<owl:Class rdf:about="#Thangka">
-  <rdfs:subClassOf rdf:resource="#CulturalEntity"/>
-</owl:Class>
-
-<owl:Class rdf:about="#StorySegment">
-  <rdfs:subClassOf rdf:resource="#CulturalEntity"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Deity">
-  <rdfs:subClassOf rdf:resource="#CulturalEntity"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Ritual">
-  <rdfs:subClassOf rdf:resource="#CulturalEntity"/>
-</owl:Class>
-
-<owl:Class rdf:about="#KnowledgeSystem">
-  <rdfs:subClassOf rdf:resource="#Entity"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Village">
-  <rdfs:subClassOf rdf:resource="#CulturalEntity"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Agent">
-  <rdfs:subClassOf rdf:resource="#Entity"/>
-</owl:Class>
-
-<owl:Class rdf:about="#CulturalEntity">
-  <rdfs:subClassOf rdf:resource="#Entity"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Event">
-  <rdfs:subClassOf rdf:resource="#Entity"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Place">
-  <rdfs:subClassOf rdf:resource="#Entity"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Entity">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-</owl:Class>
-
-<owl:Class rdf:about="#RitualEvent">
-  <rdfs:subClassOf rdf:resource="#CulturalEntity"/>
-</owl:Class>
-
-<owl:Class rdf:about="#OralTradition">
-  <rdfs:subClassOf rdf:resource="#CulturalEntity"/>
-</owl:Class>
-
-<owl:Class rdf:about="#PerformingArt">
-  <rdfs:subClassOf rdf:resource="#CulturalEntity"/>
-</owl:Class>
-
-<owl:Class rdf:about="#SacredSite">
-  <rdfs:subClassOf rdf:resource="#CulturalEntity"/>
-</owl:Class>
-
-<owl:Class rdf:about="#MediaObject">
-  <rdfs:subClassOf rdf:resource="#CulturalEntity"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Person">
-  <rdfs:subClassOf rdf:resource="#Agent"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Community">
-  <rdfs:subClassOf rdf:resource="#Agent"/>
-</owl:Class>
-
-<owl:Class rdf:about="#MusicTheorySystem">
-  <rdfs:subClassOf rdf:resource="#KnowledgeSystem"/>
-</owl:Class>
-
-<owl:Class rdf:about="#RitualKnowledgeSystem">
-  <rdfs:subClassOf rdf:resource="#KnowledgeSystem"/>
-</owl:Class>
-
-<owl:Class rdf:about="#ConflictRitual">
-  <rdfs:subClassOf rdf:resource="#Ritual"/>
-</owl:Class>
-
-<owl:NamedIndividual rdf:about="#JagarRitual">
-  <rdf:type rdf:resource="#Ritual"/>
-  <performedBy rdf:resource="#Jagariya"/>
-  <basedOnKnowledgeSystem rdf:resource="#OralTradition"/>
-  <usesArtifact rdf:resource="#Dhol"/>
-  <usesArtifact rdf:resource="#Damau"/>
-  <expressesThrough rdf:resource="#JagarChant"/>
-  <performedBy rdf:resource="#UnknownPerformer"/>
-  <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-06-18T09:10:00Z</timestamp>
-  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.2201</latitude>
-  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">79.0661</longitude>
-  <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1800.0</altitude>
-  <further_reading rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://digitalhimalaya.org/jagar</further_reading>
-  <timePeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18th Century</timePeriod>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Jagariya">
-  <rdf:type rdf:resource="#Agent"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Dhol">
-  <rdf:type rdf:resource="#CulturalEntity"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Damau">
-  <rdf:type rdf:resource="#CulturalEntity"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#JagarChant">
-  <rdf:type rdf:resource="#CulturalEntity"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#UnknownPerformer">
-  <rdf:type rdf:resource="#Agent"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#JagarRitualEvent">
-  <rdf:type rdf:resource="#RitualEvent"/>
-  <occursAt rdf:resource="#ManaVillage"/>
-  <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-06-15T12:00:00Z</timestamp>
-  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.2201</latitude>
-  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">79.0661</longitude>
-  <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1800.0</altitude>
-  <further_reading rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://digitalhimalaya.org/jagar</further_reading>
-  <timePeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18th Century</timePeriod>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#ManaVillage">
-  <rdf:type rdf:resource="#Place"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Thangka_KaliTemple">
-  <rdf:type rdf:resource="#Thangka"/>
-  <depictsDeity rdf:resource="#Kali"/>
-  <hasStorySegment rdf:resource="#Story1"/>
-  <usedInRitual rdf:resource="#KaliFestivalRitual"/>
-  <locatedAt rdf:resource="#ManaVillage"/>
-  <hasStorySegment rdf:resource="#Story_KaliBattle"/>
-  <usedInRitual rdf:resource="#Ritual_KaliFestival"/>
-  <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-01-01T09:10:00Z</timestamp>
-  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.199</latitude>
-  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80.0045</longitude>
-  <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1750.0</altitude>
-  <further_reading rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://digitalhimalaya.org/thangka_kali</further_reading>
-  <timePeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19th Century</timePeriod>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Kali">
-  <rdf:type rdf:resource="#Deity"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Story1">
-  <rdf:type rdf:resource="#StorySegment"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#KaliFestivalRitual">
-  <rdf:type rdf:resource="#Ritual"/>
-  <performedBy rdf:resource="#UnknownPerformer"/>
-  <basedOnKnowledgeSystem rdf:resource="#TempleTradition"/>
-  <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-06-16T10:00:00Z</timestamp>
-  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.199</latitude>
-  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80.0045</longitude>
-  <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1750.0</altitude>
-  <further_reading rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://digitalhimalaya.org/thangka_kali</further_reading>
-  <timePeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19th Century</timePeriod>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Story_KaliBattle">
-  <rdf:type rdf:resource="#StorySegment"/>
-  <invokesDeity rdf:resource="#Kali"/>
-  <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-01-01T09:05:00Z</timestamp>
-  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.199</latitude>
-  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80.0045</longitude>
-  <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1750.0</altitude>
-  <further_reading rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://digitalhimalaya.org/thangka_kali</further_reading>
-  <timePeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19th Century</timePeriod>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Ritual_KaliFestival">
-  <rdf:type rdf:resource="#Ritual"/>
-  <occursAt rdf:resource="#ManaVillage"/>
-  <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-01-01T09:15:00Z</timestamp>
-  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.199</latitude>
-  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80.0045</longitude>
-  <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1750.0</altitude>
-  <further_reading rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://digitalhimalaya.org/thangka_kali</further_reading>
-  <timePeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19th Century</timePeriod>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#TempleTradition">
-  <rdf:type rdf:resource="#KnowledgeSystem"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#KaliFestivalEvent">
-  <rdf:type rdf:resource="#CulturalEntity"/>
-  <occursAt rdf:resource="#ManaVillage"/>
-  <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-06-16T10:00:00Z</timestamp>
-  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.199</latitude>
-  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80.0045</longitude>
-  <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1750.0</altitude>
-  <further_reading rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://digitalhimalaya.org/thangka_kali</further_reading>
-  <timePeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19th Century</timePeriod>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Film_JagarDocumentary">
-  <rdf:type rdf:resource="#MediaObject"/>
-  <documents rdf:resource="#JagarRitualEvent"/>
-  <associatedWithRitual rdf:resource="#SpiritPossessionRitual"/>
-  <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-06-17T14:35:00Z</timestamp>
-  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.2201</latitude>
-  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">79.0661</longitude>
-  <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1800.0</altitude>
-  <further_reading rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://digitalhimalaya.org/film_jagar</further_reading>
-  <timePeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modern</timePeriod>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#SpiritPossessionRitual">
-  <rdf:type rdf:resource="#Ritual"/>
-  <performedBy rdf:resource="#UnknownPerformer"/>
-  <basedOnKnowledgeSystem rdf:resource="#ShamanicTradition"/>
-  <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-06-18T09:05:00Z</timestamp>
-  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.9</latitude>
-  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">83.9</longitude>
-  <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3000.0</altitude>
-  <further_reading rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://digitalhimalaya.org/mustang_village_study</further_reading>
-  <timePeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18th Century</timePeriod>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#ShamanicTradition">
-  <rdf:type rdf:resource="#KnowledgeSystem"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Photo_KaliFest">
-  <rdf:type rdf:resource="#MediaObject"/>
-  <documents rdf:resource="#KaliFestivalEvent"/>
-  <associatedWithRitual rdf:resource="#JagarRitual"/>
-  <associatedWithRitual rdf:resource="#KaliFestivalRitual"/>
-  <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-06-18T08:50:00Z</timestamp>
-  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.199</latitude>
-  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80.0045</longitude>
-  <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1750.0</altitude>
-  <further_reading rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://digitalhimalaya.org/photo_kali_fest</further_reading>
-  <timePeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modern</timePeriod>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#DholSagar">
-  <rdf:type rdf:resource="#CulturalEntity"/>
-  <rdf:type rdf:resource="#KnowledgeSystem"/>
-  <IncompatibleWith rdf:resource="#WesternNotation"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Formal rhythmic and cosmological system governing dhol–damau ritual performance</description>
-  <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-06-18T09:00:00Z</timestamp>
-  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.2201</latitude>
-  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">79.0661</longitude>
-  <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1800.0</altitude>
-  <further_reading rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://digitalhimalaya.org/dholsagar</further_reading>
-  <timePeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18th Century</timePeriod>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Formal_rhythmic_and_cosmological_system_governing_dhol_damau_ritual_performance">
-  <rdf:type rdf:resource="#CulturalEntity"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#HarvestFestival">
-  <rdf:type rdf:resource="#CulturalEntity"/>
-  <occursAt rdf:resource="#MustangVillage"/>
-  <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-06-18T09:00:00Z</timestamp>
-  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.9</latitude>
-  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">83.9</longitude>
-  <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3000.0</altitude>
-  <further_reading rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://digitalhimalaya.org/mustang_village_study</further_reading>
-  <timePeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18th Century</timePeriod>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MustangVillage">
-  <rdf:type rdf:resource="#Place"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Conflicting_Ritual">
-  <rdf:type rdf:resource="#Ritual"/>
-  <performedBy rdf:resource="#UnknownPerformer"/>
-  <basedOnKnowledgeSystem rdf:resource="#WesternNotation"/>
-  <basedOnKnowledgeSystem rdf:resource="#DholSagar"/>
-  <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-06-18T09:15:00Z</timestamp>
-  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.2201</latitude>
-  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">79.0661</longitude>
-  <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1800.0</altitude>
-  <further_reading rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://digitalhimalaya.org/conflict</further_reading>
-  <timePeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18th Century</timePeriod>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#UnknownKnowledgeSystem">
-  <rdf:type rdf:resource="#KnowledgeSystem"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Lama_Chaam_Festival">
-  <rdf:type rdf:resource="#CulturalEntity"/>
-  <performedBy rdf:resource="#UnknownPerformer"/>
-  <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-06-18T09:15:00Z</timestamp>
-  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.2201</latitude>
-  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">79.0661</longitude>
-  <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1800.0</altitude>
-  <further_reading rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://digitalhimalaya.org/example1</further_reading>
-  <timePeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18th Century</timePeriod>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Kali_Festival_Ritual">
-  <rdf:type rdf:resource="#Ritual"/>
-  <basedOnKnowledgeSystem rdf:resource="#OralTradition"/>
-  <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-06-18T09:15:00Z</timestamp>
-  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.2201</latitude>
-  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">79.0661</longitude>
-  <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1800.0</altitude>
-  <further_reading rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://digitalhimalaya.org/example1</further_reading>
-  <timePeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18th Century</timePeriod>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Jagar_Spirit_Invocation">
-  <rdf:type rdf:resource="#CulturalEntity"/>
-  <performedBy rdf:resource="#UnknownPerformer"/>
-  <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-06-18T09:20:00Z</timestamp>
-  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.2201</latitude>
-  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">79.0661</longitude>
-  <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1800.0</altitude>
-  <further_reading rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://digitalhimalaya.org/example2</further_reading>
-  <timePeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18th Century</timePeriod>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Local_Harvest_Celebration">
-  <rdf:type rdf:resource="#Ritual"/>
-  <basedOnKnowledgeSystem rdf:resource="#OralTradition"/>
-  <timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-06-18T09:20:00Z</timestamp>
-  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.2201</latitude>
-  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">79.0661</longitude>
-  <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1800.0</altitude>
-  <further_reading rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://digitalhimalaya.org/example2</further_reading>
-  <timePeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18th Century</timePeriod>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#WesternNotation">
-  <rdf:type rdf:resource="#KnowledgeSystem"/>
-  <IncompatibleWith rdf:resource="#DholSagar"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#LLM_Misattribution">
-  <rdf:type rdf:resource="#Ritual"/>
-  <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AI-generated ritual missing required properties</description>
-</owl:NamedIndividual>
-
-<swrl:Variable rdf:about="urn:swrl#t"/>
-
-<swrl:Variable rdf:about="urn:swrl#s"/>
-
-<swrl:Variable rdf:about="urn:swrl#d"/>
-
-<swrl:Variable rdf:about="urn:swrl#r"/>
-
-<swrl:Variable rdf:about="urn:swrl#v"/>
-
-<swrl:Variable rdf:about="urn:swrl#k1"/>
-
-<swrl:Variable rdf:about="urn:swrl#k2"/>
-
-<swrl:Imp>
-  <swrl:body>
-    <rdf:Description>
-      <rdf:first>
-        <swrl:ClassAtom>
-          <swrl:classPredicate rdf:resource="#Ritual"/>
-          <swrl:argument1 rdf:resource="urn:swrl#r"/>
-        </swrl:ClassAtom>
-      </rdf:first>
-      <rdf:rest>
-        <rdf:Description>
-          <rdf:first>
-            <swrl:IndividualPropertyAtom>
-              <swrl:propertyPredicate rdf:resource="#basedOnKnowledgeSystem"/>
-              <swrl:argument1 rdf:resource="urn:swrl#r"/>
-              <swrl:argument2 rdf:resource="urn:swrl#k1"/>
-            </swrl:IndividualPropertyAtom>
-          </rdf:first>
-          <rdf:rest>
-            <rdf:Description>
-              <rdf:first>
-                <swrl:IndividualPropertyAtom>
-                  <swrl:propertyPredicate rdf:resource="#basedOnKnowledgeSystem"/>
-                  <swrl:argument1 rdf:resource="urn:swrl#r"/>
-                  <swrl:argument2 rdf:resource="urn:swrl#k2"/>
-                </swrl:IndividualPropertyAtom>
-              </rdf:first>
-              <rdf:rest>
-                <rdf:Description>
-                  <rdf:first>
-                    <swrl:IndividualPropertyAtom>
-                      <swrl:propertyPredicate rdf:resource="#IncompatibleWith"/>
-                      <swrl:argument1 rdf:resource="urn:swrl#k1"/>
-                      <swrl:argument2 rdf:resource="urn:swrl#k2"/>
-                    </swrl:IndividualPropertyAtom>
-                  </rdf:first>
-                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                </rdf:Description>
-              </rdf:rest>
-            </rdf:Description>
-          </rdf:rest>
-        </rdf:Description>
-      </rdf:rest>
-    </rdf:Description>
-  </swrl:body>
-  <swrl:head>
-    <rdf:Description>
-      <rdf:first>
-        <swrl:ClassAtom>
-          <swrl:classPredicate rdf:resource="#ConflictRitual"/>
-          <swrl:argument1 rdf:resource="urn:swrl#r"/>
-        </swrl:ClassAtom>
-      </rdf:first>
-      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    </rdf:Description>
-  </swrl:head>
-</swrl:Imp>
-
-<swrl:Imp>
-  <swrl:body>
-    <rdf:Description>
-      <rdf:first>
-        <swrl:ClassAtom>
-          <swrl:classPredicate rdf:resource="#Ritual"/>
-          <swrl:argument1 rdf:resource="urn:swrl#r"/>
-        </swrl:ClassAtom>
-      </rdf:first>
-      <rdf:rest>
-        <rdf:Description>
-          <rdf:first>
-            <swrl:IndividualPropertyAtom>
-              <swrl:propertyPredicate rdf:resource="#basedOnKnowledgeSystem"/>
-              <swrl:argument1 rdf:resource="urn:swrl#r"/>
-              <swrl:argument2 rdf:resource="urn:swrl#k1"/>
-            </swrl:IndividualPropertyAtom>
-          </rdf:first>
-          <rdf:rest>
-            <rdf:Description>
-              <rdf:first>
-                <swrl:IndividualPropertyAtom>
-                  <swrl:propertyPredicate rdf:resource="#basedOnKnowledgeSystem"/>
-                  <swrl:argument1 rdf:resource="urn:swrl#r"/>
-                  <swrl:argument2 rdf:resource="urn:swrl#k2"/>
-                </swrl:IndividualPropertyAtom>
-              </rdf:first>
-              <rdf:rest>
-                <rdf:Description>
-                  <rdf:first>
-                    <swrl:IndividualPropertyAtom>
-                      <swrl:propertyPredicate rdf:resource="#IncompatibleWith"/>
-                      <swrl:argument1 rdf:resource="urn:swrl#k1"/>
-                      <swrl:argument2 rdf:resource="urn:swrl#k2"/>
-                    </swrl:IndividualPropertyAtom>
-                  </rdf:first>
-                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                </rdf:Description>
-              </rdf:rest>
-            </rdf:Description>
-          </rdf:rest>
-        </rdf:Description>
-      </rdf:rest>
-    </rdf:Description>
-  </swrl:body>
-  <swrl:head>
-    <rdf:Description>
-      <rdf:first>
-        <swrl:ClassAtom>
-          <swrl:classPredicate rdf:resource="#ConflictRitual"/>
-          <swrl:argument1 rdf:resource="urn:swrl#r"/>
-        </swrl:ClassAtom>
-      </rdf:first>
-      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    </rdf:Description>
-  </swrl:head>
-</swrl:Imp>
-
-<swrl:Imp>
-  <swrl:body>
-    <rdf:Description>
-      <rdf:first>
-        <swrl:ClassAtom>
-          <swrl:classPredicate rdf:resource="#Ritual"/>
-          <swrl:argument1 rdf:resource="urn:swrl#r"/>
-        </swrl:ClassAtom>
-      </rdf:first>
-      <rdf:rest>
-        <rdf:Description>
-          <rdf:first>
-            <swrl:IndividualPropertyAtom>
-              <swrl:propertyPredicate rdf:resource="#basedOnKnowledgeSystem"/>
-              <swrl:argument1 rdf:resource="urn:swrl#r"/>
-              <swrl:argument2 rdf:resource="urn:swrl#k1"/>
-            </swrl:IndividualPropertyAtom>
-          </rdf:first>
-          <rdf:rest>
-            <rdf:Description>
-              <rdf:first>
-                <swrl:IndividualPropertyAtom>
-                  <swrl:propertyPredicate rdf:resource="#basedOnKnowledgeSystem"/>
-                  <swrl:argument1 rdf:resource="urn:swrl#r"/>
-                  <swrl:argument2 rdf:resource="urn:swrl#k2"/>
-                </swrl:IndividualPropertyAtom>
-              </rdf:first>
-              <rdf:rest>
-                <rdf:Description>
-                  <rdf:first>
-                    <swrl:IndividualPropertyAtom>
-                      <swrl:propertyPredicate rdf:resource="#IncompatibleWith"/>
-                      <swrl:argument1 rdf:resource="urn:swrl#k1"/>
-                      <swrl:argument2 rdf:resource="urn:swrl#k2"/>
-                    </swrl:IndividualPropertyAtom>
-                  </rdf:first>
-                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                </rdf:Description>
-              </rdf:rest>
-            </rdf:Description>
-          </rdf:rest>
-        </rdf:Description>
-      </rdf:rest>
-    </rdf:Description>
-  </swrl:body>
-  <swrl:head>
-    <rdf:Description>
-      <rdf:first>
-        <swrl:ClassAtom>
-          <swrl:classPredicate rdf:resource="#ConflictRitual"/>
-          <swrl:argument1 rdf:resource="urn:swrl#r"/>
-        </swrl:ClassAtom>
-      </rdf:first>
-      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    </rdf:Description>
-  </swrl:head>
-</swrl:Imp>
-
-<swrl:Imp>
-  <swrl:body>
-    <rdf:Description>
-      <rdf:first>
-        <swrl:ClassAtom>
-          <swrl:classPredicate rdf:resource="#Ritual"/>
-          <swrl:argument1 rdf:resource="urn:swrl#r"/>
-        </swrl:ClassAtom>
-      </rdf:first>
-      <rdf:rest>
-        <rdf:Description>
-          <rdf:first>
-            <swrl:IndividualPropertyAtom>
-              <swrl:propertyPredicate rdf:resource="#basedOnKnowledgeSystem"/>
-              <swrl:argument1 rdf:resource="urn:swrl#r"/>
-              <swrl:argument2 rdf:resource="urn:swrl#k1"/>
-            </swrl:IndividualPropertyAtom>
-          </rdf:first>
-          <rdf:rest>
-            <rdf:Description>
-              <rdf:first>
-                <swrl:IndividualPropertyAtom>
-                  <swrl:propertyPredicate rdf:resource="#basedOnKnowledgeSystem"/>
-                  <swrl:argument1 rdf:resource="urn:swrl#r"/>
-                  <swrl:argument2 rdf:resource="urn:swrl#k2"/>
-                </swrl:IndividualPropertyAtom>
-              </rdf:first>
-              <rdf:rest>
-                <rdf:Description>
-                  <rdf:first>
-                    <swrl:IndividualPropertyAtom>
-                      <swrl:propertyPredicate rdf:resource="#IncompatibleWith"/>
-                      <swrl:argument1 rdf:resource="urn:swrl#k1"/>
-                      <swrl:argument2 rdf:resource="urn:swrl#k2"/>
-                    </swrl:IndividualPropertyAtom>
-                  </rdf:first>
-                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                </rdf:Description>
-              </rdf:rest>
-            </rdf:Description>
-          </rdf:rest>
-        </rdf:Description>
-      </rdf:rest>
-    </rdf:Description>
-  </swrl:body>
-  <swrl:head>
-    <rdf:Description>
-      <rdf:first>
-        <swrl:ClassAtom>
-          <swrl:classPredicate rdf:resource="#ConflictRitual"/>
-          <swrl:argument1 rdf:resource="urn:swrl#r"/>
-        </swrl:ClassAtom>
-      </rdf:first>
-      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    </rdf:Description>
-  </swrl:head>
-</swrl:Imp>
-
-<swrl:Imp>
-  <swrl:body>
-    <rdf:Description>
-      <rdf:first>
-        <swrl:ClassAtom>
-          <swrl:classPredicate rdf:resource="#Ritual"/>
-          <swrl:argument1 rdf:resource="urn:swrl#r"/>
-        </swrl:ClassAtom>
-      </rdf:first>
-      <rdf:rest>
-        <rdf:Description>
-          <rdf:first>
-            <swrl:IndividualPropertyAtom>
-              <swrl:propertyPredicate rdf:resource="#basedOnKnowledgeSystem"/>
-              <swrl:argument1 rdf:resource="urn:swrl#r"/>
-              <swrl:argument2 rdf:resource="urn:swrl#k1"/>
-            </swrl:IndividualPropertyAtom>
-          </rdf:first>
-          <rdf:rest>
-            <rdf:Description>
-              <rdf:first>
-                <swrl:IndividualPropertyAtom>
-                  <swrl:propertyPredicate rdf:resource="#basedOnKnowledgeSystem"/>
-                  <swrl:argument1 rdf:resource="urn:swrl#r"/>
-                  <swrl:argument2 rdf:resource="urn:swrl#k2"/>
-                </swrl:IndividualPropertyAtom>
-              </rdf:first>
-              <rdf:rest>
-                <rdf:Description>
-                  <rdf:first>
-                    <swrl:IndividualPropertyAtom>
-                      <swrl:propertyPredicate rdf:resource="#IncompatibleWith"/>
-                      <swrl:argument1 rdf:resource="urn:swrl#k1"/>
-                      <swrl:argument2 rdf:resource="urn:swrl#k2"/>
-                    </swrl:IndividualPropertyAtom>
-                  </rdf:first>
-                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                </rdf:Description>
-              </rdf:rest>
-            </rdf:Description>
-          </rdf:rest>
-        </rdf:Description>
-      </rdf:rest>
-    </rdf:Description>
-  </swrl:body>
-  <swrl:head>
-    <rdf:Description>
-      <rdf:first>
-        <swrl:ClassAtom>
-          <swrl:classPredicate rdf:resource="#ConflictRitual"/>
-          <swrl:argument1 rdf:resource="urn:swrl#r"/>
-        </swrl:ClassAtom>
-      </rdf:first>
-      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    </rdf:Description>
-  </swrl:head>
-</swrl:Imp>
-
-<swrl:Imp>
-  <swrl:body>
-    <rdf:Description>
-      <rdf:first>
-        <swrl:ClassAtom>
-          <swrl:classPredicate rdf:resource="#Thangka"/>
-          <swrl:argument1 rdf:resource="urn:swrl#t"/>
-        </swrl:ClassAtom>
-      </rdf:first>
-      <rdf:rest>
-        <rdf:Description>
-          <rdf:first>
-            <swrl:IndividualPropertyAtom>
-              <swrl:propertyPredicate rdf:resource="#hasStorySegment"/>
-              <swrl:argument1 rdf:resource="urn:swrl#t"/>
-              <swrl:argument2 rdf:resource="urn:swrl#s"/>
-            </swrl:IndividualPropertyAtom>
-          </rdf:first>
-          <rdf:rest>
-            <rdf:Description>
-              <rdf:first>
-                <swrl:IndividualPropertyAtom>
-                  <swrl:propertyPredicate rdf:resource="#invokesDeity"/>
-                  <swrl:argument1 rdf:resource="urn:swrl#s"/>
-                  <swrl:argument2 rdf:resource="urn:swrl#d"/>
-                </swrl:IndividualPropertyAtom>
-              </rdf:first>
-              <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-          </rdf:rest>
-        </rdf:Description>
-      </rdf:rest>
-    </rdf:Description>
-  </swrl:body>
-  <swrl:head>
-    <rdf:Description>
-      <rdf:first>
-        <swrl:IndividualPropertyAtom>
-          <swrl:propertyPredicate rdf:resource="#depictsDeity"/>
-          <swrl:argument1 rdf:resource="urn:swrl#t"/>
-          <swrl:argument2 rdf:resource="urn:swrl#d"/>
-        </swrl:IndividualPropertyAtom>
-      </rdf:first>
-      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    </rdf:Description>
-  </swrl:head>
-</swrl:Imp>
-
-<swrl:Imp>
-  <swrl:body>
-    <rdf:Description>
-      <rdf:first>
-        <swrl:ClassAtom>
-          <swrl:classPredicate rdf:resource="#Thangka"/>
-          <swrl:argument1 rdf:resource="urn:swrl#t"/>
-        </swrl:ClassAtom>
-      </rdf:first>
-      <rdf:rest>
-        <rdf:Description>
-          <rdf:first>
-            <swrl:IndividualPropertyAtom>
-              <swrl:propertyPredicate rdf:resource="#usedInRitual"/>
-              <swrl:argument1 rdf:resource="urn:swrl#t"/>
-              <swrl:argument2 rdf:resource="urn:swrl#r"/>
-            </swrl:IndividualPropertyAtom>
-          </rdf:first>
-          <rdf:rest>
-            <rdf:Description>
-              <rdf:first>
-                <swrl:IndividualPropertyAtom>
-                  <swrl:propertyPredicate rdf:resource="#occursAt"/>
-                  <swrl:argument1 rdf:resource="urn:swrl#r"/>
-                  <swrl:argument2 rdf:resource="urn:swrl#v"/>
-                </swrl:IndividualPropertyAtom>
-              </rdf:first>
-              <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-          </rdf:rest>
-        </rdf:Description>
-      </rdf:rest>
-    </rdf:Description>
-  </swrl:body>
-  <swrl:head>
-    <rdf:Description>
-      <rdf:first>
-        <swrl:IndividualPropertyAtom>
-          <swrl:propertyPredicate rdf:resource="#associatedWithVillage"/>
-          <swrl:argument1 rdf:resource="urn:swrl#t"/>
-          <swrl:argument2 rdf:resource="urn:swrl#v"/>
-        </swrl:IndividualPropertyAtom>
-      </rdf:first>
-      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    </rdf:Description>
-  </swrl:head>
-</swrl:Imp>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:onto="http://example.org/ontology/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/ontology/performedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/ontology/Ritual"/>
+    <rdfs:range rdf:resource="http://example.org/ontology/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/King_Chandraketu">
+    <onto:isPartOf rdf:resource="http://example.org/entity/Valor_in_battle"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/chandraketugarh">
+    <onto:wasRuledBy rdf:resource="http://example.org/entity/King_Chandraketu"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:locatedIn rdf:resource="http://example.org/entity/West_Bengal"/>
+    <onto:hasNearbyLandmark rdf:resource="http://example.org/entity/Kolkata"/>
+    <onto:hasNearbyLandmark rdf:resource="http://example.org/entity/Sunderban"/>
+    <onto:hasHistoricalSignificance rdf:resource="http://example.org/entity/Ancient_Trade_Center"/>
+    <onto:isPartOf rdf:resource="http://example.org/entity/Ganges_Delta_Archaeological_Site"/>
+    <onto:isAssociatedWith rdf:resource="http://example.org/entity/Mauryan_Dynasty"/>
+    <onto:hasArtifacts rdf:resource="http://example.org/entity/Large_Brick_Structures"/>
+    <onto:exports rdf:resource="http://example.org/entity/Spices"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/The_Morall_Philosophie_of_Doni">
+    <onto:tookPlaceAt rdf:resource="http://example.org/entity/Europe"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:isDerivativeOf rdf:resource="http://example.org/entity/"/>
+    <onto:carriedOutBy rdf:resource="http://example.org/entity/Unknown_European_Translators"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Entity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/OralTradition">
+    <rdf:type rdf:resource="http://example.org/ontology/KnowledgeSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/HarvestFestival">
+    <onto:occursAt rdf:resource="http://example.org/entity/MustangVillage"/>
+    <rdf:type rdf:resource="http://example.org/ontology/Ritual"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Khanar_Bachan">
+    <onto:isPartOf rdf:resource="http://example.org/entity/agrarian_calander"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:hasProverbsOn rdf:resource="http://example.org/entity/good_agricultural_practice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/_">
+    <onto:isDerivativeOf rdf:resource="http://example.org/entity/"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:hasEnglishLabel rdf:resource="http://example.org/entity/HebrewTranslations"/>
+    <onto:hasEnglishLabel rdf:resource="http://example.org/entity/KalilawaDimna"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/English_Fables_prints">
+    <onto:isIconographicallyLinkedTo rdf:resource="http://example.org/entity/Panchatantra"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:carriedOutBy rdf:resource="http://example.org/entity/English_printmakers"/>
+    <onto:tookPlaceAt rdf:resource="http://example.org/entity/England"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Khavda_Pottery">
+    <onto:datesBackTo rdf:resource="http://example.org/entity/Indus_Valley_Civilization"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:useLocalClayFromRunnOfKutch rdf:resource="http://example.org/entity/for_making_pottery"/>
+    <onto:featuresGeometricMotif rdf:resource="http://example.org/entity/on_its_surface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Village">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Entity"/>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/">
+    <onto:hasEnglishLabel rdf:resource="http://example.org/entity/Panchatantra"/>
+    <onto:hasEnglishLabel rdf:resource="http://example.org/entity/Ramakien"/>
+    <onto:hasEnglishLabel rdf:resource="http://example.org/entity/Ramayana"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:isDerivativeOf rdf:resource="http://example.org/entity/"/>
+    <onto:carriedOutBy rdf:resource="http://example.org/entity/King_Rama_I"/>
+    <onto:tookPlaceAt rdf:resource="http://example.org/entity/Thai_Royal_Court"/>
+    <onto:inferred rdf:resource="http://example.org/entity/Directorium_Humanae_Vitae"/>
+    <onto:inferred rdf:resource="http://example.org/entity/Traditio_Fabularum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/ConflictRitual">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Ritual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Aesop_Fables">
+    <onto:carriedOutBy rdf:resource="http://example.org/entity/Unknown_Greek_Transmitters"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:tookPlaceAt rdf:resource="http://example.org/entity/Ancient_Greece"/>
+    <onto:isDerivativeOf rdf:resource="http://example.org/entity/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Hans_Christian_Andersen_Stories">
+    <onto:refersTo rdf:resource="http://example.org/entity/European_Folklore"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/iconography_1">
+    <rdf:type rdf:resource="http://example.org/ontology/StorySegment"/>
+    <rdf:type rdf:resource="http://example.org/ontology/Thangka"/>
+    <onto:depictsDeity rdf:resource="http://example.org/entity/deity_Avalokiteshvara"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/KaliFestivalEvent">
+    <onto:occursAt rdf:resource="http://example.org/entity/ManaVillage"/>
+    <rdf:type rdf:resource="http://example.org/ontology/Ritual"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/DholSagar">
+    <onto:description rdf:resource="http://example.org/entity/Formal_rhythmic_and_cosmological_system_governing_dholdamau_ritual_performance"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/ShamanicTradition">
+    <rdf:type rdf:resource="http://example.org/ontology/KnowledgeSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/ritual_001">
+    <onto:basedOnKnowledgeSystem rdf:resource="http://example.org/entity/Vajrayana"/>
+    <rdf:type rdf:resource="http://example.org/ontology/Ritual"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/depictsDeity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/ontology/Thangka"/>
+    <rdfs:range rdf:resource="http://example.org/ontology/Deity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Spices">
+    <onto:isDemandedBy rdf:resource="http://example.org/entity/Roman_Empire"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/ritual_002">
+    <onto:basedOnKnowledgeSystem rdf:resource="http://example.org/entity/Vajrayana"/>
+    <onto:basedOnKnowledgeSystem rdf:resource="http://example.org/entity/Theravada"/>
+    <rdf:type rdf:resource="http://example.org/ontology/Ritual"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/MediaObject">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/basedOnKnowledgeSystem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/ontology/Ritual"/>
+    <rdfs:range rdf:resource="http://example.org/ontology/KnowledgeSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/StorySegment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/CulturalEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/JagarRitual">
+    <onto:performedBy rdf:resource="http://example.org/entity/Jagariya"/>
+    <onto:performedBy rdf:resource="http://example.org/entity/unknownperson"/>
+    <rdf:type rdf:resource="http://example.org/ontology/Ritual"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:basedOnKnowledgeSystem rdf:resource="http://example.org/entity/OralTradition"/>
+    <onto:usesArtifact rdf:resource="http://example.org/entity/Dhol"/>
+    <onto:usesArtifact rdf:resource="http://example.org/entity/Damau"/>
+    <onto:expressesThrough rdf:resource="http://example.org/entity/JagarChant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/SpiritPossessionRitual">
+    <onto:performedBy rdf:resource="http://example.org/entity/unknownperson"/>
+    <rdf:type rdf:resource="http://example.org/ontology/Ritual"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:basedOnKnowledgeSystem rdf:resource="http://example.org/entity/ShamanicTradition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/MusicTheorySystem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Mauryan_Dynasty">
+    <onto:hadReign rdf:resource="http://example.org/entity/322185_BC"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/invokesDeity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/ontology/StorySegment"/>
+    <rdfs:range rdf:resource="http://example.org/ontology/Deity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/_temple_relief_carvings">
+    <onto:isIconographicallyLinkedTo rdf:resource="http://example.org/entity/Panchatantra"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:tookPlaceAt rdf:resource="http://example.org/entity/Karnataka_temple_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/JagarSpiritInvocation">
+    <onto:performedBy rdf:resource="http://example.org/entity/unknownperson"/>
+    <rdf:type rdf:resource="http://example.org/ontology/Ritual"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Deity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/CulturalEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Via_Egnatia">
+    <onto:hasAncientTradeRoute rdf:resource="http://example.org/entity/Chandraketugarh"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/location">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/deity_Avalokiteshvara">
+    <rdf:type rdf:resource="http://example.org/ontology/Deity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/occursAt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/ontology/Ritual"/>
+    <rdfs:range rdf:resource="http://example.org/ontology/Village"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/FilmJagarDocumentary">
+    <onto:documents rdf:resource="http://example.org/entity/JagarRitualEvent"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:associatedWithRitual rdf:resource="http://example.org/entity/SpiritPossessionRitual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/thangka_45">
+    <onto:hasStorySegment rdf:resource="http://example.org/entity/iconography_1"/>
+    <rdf:type rdf:resource="http://example.org/ontology/Thangka"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:depictsDeity rdf:resource="http://example.org/entity/deity_Avalokiteshvara"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Indian_Buddhist_Art">
+    <onto:showsFeaturesOf rdf:resource="http://example.org/entity/Ajanta_Murals"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/TempleTradition">
+    <rdf:type rdf:resource="http://example.org/ontology/KnowledgeSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/LocalHarvestCelebration">
+    <onto:basedOnKnowledgeSystem rdf:resource="http://example.org/entity/OralTradition"/>
+    <rdf:type rdf:resource="http://example.org/ontology/Ritual"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/La_Fontaine_printed_fables_illustrations">
+    <onto:isIconographicallyLinkedTo rdf:resource="http://example.org/entity/Panchatantra"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:carriedOutBy rdf:resource="http://example.org/entity/French_printmakers"/>
+    <onto:tookPlaceAt rdf:resource="http://example.org/entity/France"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/unknownperson">
+    <rdf:type rdf:resource="http://example.org/ontology/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/ThangkaKaliTemple">
+    <onto:depictsDeity rdf:resource="http://example.org/entity/Kali"/>
+    <rdf:type rdf:resource="http://example.org/ontology/Thangka"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:hasStorySegment rdf:resource="http://example.org/entity/StoryKaliBattle"/>
+    <onto:usedInRitual rdf:resource="http://example.org/entity/KaliFestivalRitual"/>
+    <onto:locatedAt rdf:resource="http://example.org/entity/ManaVillage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/incompatibleWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Agent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Thangka">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/CulturalEntity"/>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/PhotoKaliFest">
+    <onto:documents rdf:resource="http://example.org/entity/KaliFestivalEvent"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:associatedWithRitual rdf:resource="http://example.org/entity/JagarRitual"/>
+    <onto:associatedWithRitual rdf:resource="http://example.org/entity/KaliFestivalRitual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Kalila_wa_Dimna_manuscript_illustrations">
+    <onto:isIconographicallyLinkedTo rdf:resource="http://example.org/entity/Panchatantra"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:carriedOutBy rdf:resource="http://example.org/entity/Islamic_manuscript_illuminators"/>
+    <onto:tookPlaceAt rdf:resource="http://example.org/entity/Persia_and_Abbasid_regions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Kali">
+    <rdf:type rdf:resource="http://example.org/ontology/Deity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/StoryKaliBattle">
+    <rdf:type rdf:resource="http://example.org/ontology/StorySegment"/>
+    <onto:invokesDeity rdf:resource="http://example.org/entity/Kali"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/The_Fables_of_Bidpai">
+    <onto:tookPlaceAt rdf:resource="http://example.org/entity/Europe"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:isDerivativeOf rdf:resource="http://example.org/entity/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/hasStorySegment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/ontology/Thangka"/>
+    <rdfs:range rdf:resource="http://example.org/ontology/StorySegment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/KaliFestivalRitual">
+    <rdf:type rdf:resource="http://example.org/ontology/Ritual"/>
+    <onto:performedBy rdf:resource="http://example.org/entity/unknownperson"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+    <onto:basedOnKnowledgeSystem rdf:resource="http://example.org/entity/TempleTradition"/>
+    <onto:basedOnKnowledgeSystem rdf:resource="http://example.org/entity/OralTradition"/>
+    <onto:occursAt rdf:resource="http://example.org/entity/ManaVillage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Ritual">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/CulturalEntity"/>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Merchants_from_Chandraketugarh">
+    <onto:traded rdf:resource="http://example.org/entity/beads"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/usedInRitual">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/ontology/Thangka"/>
+    <rdfs:range rdf:resource="http://example.org/ontology/Ritual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Bidriware_Creation">
+    <onto:wasProducedBy rdf:resource="http://example.org/entity/Persian_Artisans"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Sri_Lankan_Murals">
+    <onto:showsFeaturesOf rdf:resource="http://example.org/entity/"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/chandraketugarh_pottery">
+    <onto:hasConnectionTo rdf:resource="http://example.org/entity/neighboring_regions"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Ramayana">
+    <onto:usedSpecificObject rdf:resource="http://example.org/entity/Dhamma"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Southeast_Asian_Temple_Art">
+    <onto:showsFeaturesOf rdf:resource="http://example.org/entity/Chola_Bronze_Sculptures"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/KnowledgeSystem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/JagarRitualEvent">
+    <onto:occursAt rdf:resource="http://example.org/entity/ManaVillage"/>
+    <rdf:type rdf:resource="http://example.org/ontology/Ritual"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/European_Folklore">
+    <onto:refersTo rdf:resource="http://example.org/entity/Panchatantra_Themes"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Traditio_Fabularum">
+    <onto:wasInfluencedBy rdf:resource="http://example.org/entity/Directorium_Humanae_Vitae"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Jagariya">
+    <rdf:type rdf:resource="http://example.org/ontology/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Vajrayana">
+    <rdf:type rdf:resource="http://example.org/ontology/KnowledgeSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Chandraketugarh_Terracotta">
+    <onto:hasExample rdf:resource="http://example.org/entity/skilled_craftsmanship"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Valmiki">
+    <onto:hasCreated rdf:resource="http://example.org/entity/"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Ganges_Delta_Archaeological_Site">
+    <onto:hasCulturalSignificance rdf:resource="http://example.org/entity/Rich_Historical_Heritage"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Dance_Drama_Performance">
+    <onto:usedSpecificObject rdf:resource="http://example.org/entity/"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/ManaVillage">
+    <rdf:type rdf:resource="http://example.org/ontology/Village"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/LamaChaamFestival">
+    <onto:performedBy rdf:resource="http://example.org/entity/unknownperson"/>
+    <rdf:type rdf:resource="http://example.org/ontology/Ritual"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/MustangVillage">
+    <rdf:type rdf:resource="http://example.org/ontology/Village"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Theravada">
+    <rdf:type rdf:resource="http://example.org/ontology/KnowledgeSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/timestamp">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Vishnu_Sharma">
+    <onto:hasCreated rdf:resource="http://example.org/entity/"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/entity/Roman_Empire">
+    <onto:hasTradeRoute rdf:resource="http://example.org/entity/Via_Egnatia"/>
+    <onto:timestamp>2023-12-24T13:38:48.223Z</onto:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/CulturalEntity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
 </rdf:RDF>
