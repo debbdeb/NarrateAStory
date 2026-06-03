@@ -1,8 +1,8 @@
 # NarrateAStory.com
 
-NarrateAStory.com is a collaborative research platform focused on museum technologies, data storytelling, and the study of social attention.
+NarrateAStory.com is a collaborative research platform focused on data storytelling, museum technologies, and the study of social attention.
 
-In particular, it supports research in rare heritage documentation using ontologies and user engagement and social attention analytics using eye tracking.
+In particular, it supports research in rare heritage documentation using ontologies and user engagement analytics using eye tracking.
 
 Core research areas include:
 - Crowdsourced co-creation of rare heritage documentation
@@ -13,7 +13,7 @@ Core research areas include:
 
 The platform investigates how people interact with cultural and historical information, using attention-driven signals to improve how heritage is structured, accessed, and understood.
 
-It is designed as a domain-extensible framework applicable to museums, education, tourism, and broader social attention research.
+It is designed as a domain-extensible framework and also applicable to other domains such as social attention research.
 
 Reference:
 Deb, B. (2024). *Collaborative Heritage Mapping through Publicly Sourced Triplets.* Primitive Tider, 26, 95–103. https://doi.org/10.5617/pt.12093
