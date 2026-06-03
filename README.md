@@ -1,27 +1,19 @@
 # NarrateAStory.com
 
-NarrateAStory.com is a collaborative research platform for data storytelling and the study of human attention and knowledge systems.
+NarrateAStory.com is a collaborative research platform focused on museum technologies, data storytelling, and the study of social attention.
 
-It supports research in rare heritage documentation, user engagement, social attention, and neuromarketing using semantic web technologies, geospatial methods, and eye-tracking analytics.
+In particular, it supports research in rare heritage documentation using ontologies and user engagement and social attention analytics using eye tracking.
 
-## Research Areas
+Core research areas include:
+- Crowdsourced co-creation of rare heritage documentation
+- Web mapping and visualization of collaboratively generated heritage data
+- Ontology development from participatory heritage datasets
+- Attention and engagement analytics in human interaction environments
+- Low-cost eye-tracking systems for user engagement analysis
 
-- 🤝 Crowdsourced data co-creation for ontology development  
-- 🌐 Geospatial data analysis and visualization  
-- 🧠 Semantic ontologies and knowledge graphs for structured knowledge representation  
-- 👁️ Eye-tracking-based analysis of visual attention and user interaction  
-- 📈 Attention and engagement analytics across human interaction environments  
+The platform investigates how people interact with cultural and historical information, using attention-driven signals to improve how heritage is structured, accessed, and understood.
 
-## Technical Scope
+It is designed as a domain-extensible framework applicable to museums, education, tourism, and broader social attention research.
 
-The system investigates semantic web, geospatial, and eye-tracking methodologies to support structured knowledge modeling and attention-based user engagement analytics.
-
-It is designed as a domain-extensible framework applicable beyond heritage to other areas such as education, tourism, and social attention.
-
-## Get Involved
-
-Researchers, students, and contributors are welcome to participate in data co-creation, analysis, and user engagement analytics.
-
-## Citation
-
+Reference:
 Deb, B. (2024). *Collaborative Heritage Mapping through Publicly Sourced Triplets.* Primitive Tider, 26, 95–103. https://doi.org/10.5617/pt.12093
