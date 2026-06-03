@@ -1,26 +1,28 @@
 # NarrateAStory.com
 
-NarrateAStory.com is a collaborative research platform for data storytelling, rare heritage documentation, and the study of user engagement and visual attention.
+NarrateAStory.com is a collaborative research platform for data storytelling and the study of human attention and knowledge systems.
 
-The platform supports participatory research through crowdsourced data collection, geospatial technologies, ontologies, and eye-tracking-based analytics.
+It supports research in rare heritage documentation, user engagement, social attention, and neuromarketing using semantic web technologies, geospatial methods, and eye-tracking analytics.
+
+The platform enables participatory data collection and analysis through crowdsourcing and ontology development.
 
 ## Research Areas
 
-* 🤝 Crowdsourced data collection
-* 🌐 Geospatial technologies for spatial data analytics and visualization
-* 🧠 Semantic ontologies and knowledge graphs (OWL/RDF) for knowledge representation and integration
-* 👥 User engagement research using eye-tracking methods to analyze visual attention and interaction behavior
-* 👁️ Visual attention analytics using eye-tracking data to study attention patterns and content salience
+- 🤝 Crowdsourced data co-creation for ontology development  
+- 🌐 Geospatial data analysis and visualization  
+- 🧠 Semantic ontologies and knowledge graphs for structured knowledge representation  
+- 👁️ Eye-tracking-based analysis of visual attention and user interaction  
+- 📈 Attention and engagement analytics across human interaction environments  
 
 ## Technical Scope
 
-NarrateAStory.com integrates semantic web technologies, geospatial data methods, and eye-tracking techniques to support rare heritage documentation, knowledge representation, and user engagement and visual attention research.
+The system integrates semantic web, geospatial, and eye-tracking methodologies to support structured knowledge modeling and attention-based user engagement analytics.
 
-The research is domain-agnostic and can be extended beyond heritage to other application areas, including social attention analysis.
+It is designed as a domain-extensible framework applicable beyond heritage to other areas such as education, tourism, and social attention.
 
 ## Get Involved
 
-Researchers, students, cultural heritage practitioners, and members of the public are welcome to contribute data, participate in research activities, and collaborate on data storytelling projects.
+Researchers, students, and contributors are welcome to participate in data co-creation, analysis, and user engagement analytics.
 
 ## Citation
 
