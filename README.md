@@ -1,87 +1,27 @@
 # NarrateAStory.com
 
-NarrateAStory.com is a **data storytelling and collaborative research platform** focused on **curating rare heritage for cultural and tourism analytics.**.  
+NarrateAStory.com is a collaborative research platform for data storytelling, heritage documentation, and the study of user engagement and visual attention.
 
-The platform supports the use of **ontologies, web mapping, and immersive storytelling** for organizing, analyzing, and storytelling structured and semi-structured data in a research and cultural tourism context.
+The platform supports participatory research through crowdsourced data collection, geospatial technologies, ontologies, and eye-tracking-based analytics.
 
-NarrateAStory.com explores multiple application areas — including **rare heritage curation** and **storytelling** — with the aim of supporting **engaging, data-driven learning and knowledge-sharing experiences**.  
+## Research Areas
 
-It provides an open, participatory space where researchers and members of the public can co-create data, contribute observations, and share stories that help document and preserve rare heritage.
+* 🤝 Crowdsourced data collection
+* 🌐 Geospatial technologies for spatial data analytics and visualization
+* 🧠 Semantic ontologies and knowledge graphs (OWL/RDF) for knowledge representation and integration
+* 👥 User engagement research using eye-tracking methods to analyze visual attention and interaction behavior
+* 👁️ Visual attention analytics using eye-tracking data to study attention patterns and content salience
 
----
+## Technical Scope
 
-## About the Project
+NarrateAStory.com integrates semantic web technologies, geospatial data methods, and eye-tracking techniques to support heritage documentation, knowledge representation, and human-centered research.
 
-NarrateAStory.com focuses on:
-
-- 🌐 **Geospatial technologies** for spatial data analytics and visualization  
-- 🤝 **Crowdsourced data collection** supporting collection of rare heritage data from general public  
-- 🧠 **Semantic ontologies and knowledge graphs (OWL/RDF)** for representating heritage knowledge  
-
-The platform supports collaborative data storytelling and knowledge sharing across several domains:
-
-- 🏛️ **Cultural Heritage**  
-  *e.g., documentation of rare historic sites, traditions, and practices*
-
-- 🎓 **Tourism Analytics**  
-  *e.g., analyzing visitor patterns and engagement at rare and endangered heritage sites to support their preservation*
-
-NarrateAStory.com is intended to support **research, tourism, and public engagement for rare heritage**, and is not designed for decision-making use.
-
----
-
-## Key Features
-
-### 🗺️ Collaborative Heritage Data Collection and Mapping
-An open, participatory approach that enables contributors to co-create and explore geospatial knowledge related to cultural heritage.
-
-### 🏛️ Heritage Data Modeling using Ontologies
-Users can submit structured information about heritage sites, cultural traditions, and local landmarks, contributing to a shared and evolving heritage ontology.
-
-### 🧩 OWL-Based Heritage Ontology
-NarrateAStory.com provides a **formal OWL-formatted ontology** to support:
-
-- 🔗 **Structured semantic representation** of cultural elements (e.g., artifacts, locations, practices)  
-- 🔄 **Interoperability** with external datasets, digital heritage systems, and research infrastructures  
-- 📊 **Machine-readable data** suitable for computational analysis, knowledge-based querying, and AI workflows  
-
----
-
-## Features for Contributors
-
-### 📌 Add New Heritage Entries
-Contributors can submit data including descriptions in triples, cultural significance, time period, altitude, and further reading link.
-
-### 🧠 Use Semantic Ontology Tools
-Contributions are structured using heuristic-based **ontology-driven schemas**, supporting data consistency, reuse, and integration.
-
-### 🔍 Support for Research in Tourism
-Contributed data may be used to support:
-- Academic and applied research in tourism analytics
-- Educational learning activities
-- Public data storytelling related to heritage, sustainability, and cultural diversity
-
----
-
-## Research and Technical Scope
-
-NarrateAStory.com adopts **semantic web technologies, geospatial data methods, and AI techniques** to support knowledge representation and data analysis.  
-Ongoing research explores the **integration of traditional rule-based methods with modern AI and immersive storytelling** to assist with data exploration, pattern identification, and simulation in geospatial and tourism contexts.
-
----
+The research is domain-agnostic and can be extended beyond heritage to other application areas, including social attention analysis.
 
 ## Get Involved
 
-Researchers, tour guides, students, and members of the public are welcome to participate.
-
-- 🌐 Visit: **NarrateAStory.com**
-- 🧑‍💻 Contribute rare heritage data
-- 🤝 Participate in research and data storytelling projects
-
----
+Researchers, students, cultural heritage practitioners, and members of the public are welcome to contribute data, participate in research activities, and collaborate on data storytelling projects.
 
 ## Citation
 
-Deb, B. (2024). *Collaborative Heritage Mapping through Publicly Sourced Triplets.*  
-**Primitive Tider**, ISSN 1501-0430, Vol. 26, pp. 95–103.  
-https://doi.org/10.5617/pt.12093
+Deb, B. (2024). *Collaborative Heritage Mapping through Publicly Sourced Triplets.* Primitive Tider, 26, 95–103. https://doi.org/10.5617/pt.12093
