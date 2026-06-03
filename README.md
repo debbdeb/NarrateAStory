@@ -1,6 +1,6 @@
 # NarrateAStory.com
 
-NarrateAStory.com is a collaborative research platform for data storytelling, heritage documentation, and the study of user engagement and visual attention.
+NarrateAStory.com is a collaborative research platform for data storytelling, rare heritage documentation, and the study of user engagement and visual attention.
 
 The platform supports participatory research through crowdsourced data collection, geospatial technologies, ontologies, and eye-tracking-based analytics.
 
@@ -14,7 +14,7 @@ The platform supports participatory research through crowdsourced data collectio
 
 ## Technical Scope
 
-NarrateAStory.com integrates semantic web technologies, geospatial data methods, and eye-tracking techniques to support heritage documentation, knowledge representation, and human-centered research.
+NarrateAStory.com integrates semantic web technologies, geospatial data methods, and eye-tracking techniques to support rare heritage documentation, knowledge representation, and user engagement and visual attention research.
 
 The research is domain-agnostic and can be extended beyond heritage to other application areas, including social attention analysis.
 
