@@ -10,7 +10,7 @@ Core research areas include:
 - Attention and engagement analytics in human interaction environments
 - Low-cost eye-tracking systems for user engagement analysis
 
-The platform develops rare heritage ontologies and investigates user engagement with heritage information.
+The platform develops rare heritage ontologies and investigates user engagement in heritage information.
 
 It is designed as a domain-extensible framework and also applicable to other domains such as social attention research.
 
