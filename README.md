@@ -1,17 +1,14 @@
-# **NarrateAStory.com | Museum Technology | Heritage Documentation | Engagement Analytics**
+# **NarrateAStory.com | Museum Technology | Heritage Ontology | Eye-tracking for User Engagement Analytics**
 
-A collaborative research platform exploring museum technologies for heritage documentation and visitor engagement through semantic ontologies and attention analytics.
+A collaborative research platform exploring museum technologies for rare heritage documentation using ontologies and user engagement analytics based on eye-tracking.
 
 ## **Focus Areas**
 • Crowdsourced creation of heritage datasets  
 • Development of heritage ontologies from crowdsourced data  
-• Visualization and mapping of heritage knowledge structures  
-• Visitor attention and engagement analysis in museum and exhibition contexts  
-• Exploration of low-cost approaches to eye-tracking–based research  
+• Visualization and mapping of heritage ontologies
+• Research on low-cost eye-tracking technologies for user engagement analytics
 
-The platform supports research in data storytelling, heritage documentation, and social attention studies, with applications in related interdisciplinary fields.
-
-Based on ongoing work in collaborative heritage mapping and publicly sourced semantic representations (Deb, 2024).
+While developed in the context of digital heritage, the underlying methodologies are designed to be domain-extensible and may also support research in areas such as social attention.
 
 ## **Reference**
 Deb, B. (2024). *Collaborative Heritage Mapping through Publicly Sourced Triplets.* Primitive Tider, 26, 95–103. https://doi.org/10.5617/pt.12093
