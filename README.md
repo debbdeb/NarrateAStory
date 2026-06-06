@@ -5,9 +5,9 @@ A collaborative research platform exploring museum technologies for rare heritag
 ## **Focus Areas**
 
 - Creation of Crowdsourced heritage datasets
-- Designing heritage ontologies from crowdsourced data
+- Design of heritage ontologies from crowdsourced data
 - Visualization and mapping of heritage ontologies
-- Developing low-cost eye-tracking for evaluating user engagement with heritage ontologies
+- Development of low-cost eye-tracking technologies for evaluating user engagement with heritage ontologies
 
 While developed in the context of digital heritage, the underlying methodologies are designed to be domain-extensible and may also support research in areas such as social attention.
 
