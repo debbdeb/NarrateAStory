@@ -1,4 +1,4 @@
-# **NarrateAStory.com | Museum Technologies | Heritage Documentation | Engagement Analytics**
+# **NarrateAStory.com | Museum Technology | Heritage Documentation | Engagement Analytics**
 
 A collaborative research platform exploring museum technologies for heritage documentation and visitor engagement through semantic ontologies and attention analytics.
 
