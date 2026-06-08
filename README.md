@@ -4,7 +4,7 @@ A collaborative research platform exploring museum technologies for rare heritag
 
 ## **Focus Areas**
 
-- Crowdsourced dataset creation for rare heritage documentation
+- Crowdsourced dataset development for rare heritage documentation
 - Ontology design for rare heritage using crowdsourced data
 - Visualization and mapping of rare heritage ontologies
 - Low-cost eye-tracking system development for evaluating user engagement with heritage exhibitions
