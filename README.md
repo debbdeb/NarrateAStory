@@ -1,6 +1,6 @@
 # **NarrateAStory.com | Museum Technology | Digital Heritage | Eye-tracking for Audience Engagement Analytics**
 
-A collaborative research platform exploring digital technologies for heritage documentation using ontologies and audience engagement analysis through eye-tracking.
+A collaborative research platform exploring digital technologies for heritage documentation through ontologies and audience engagement analysis using eye-tracking.
 
 ## **Focus Areas**
 
