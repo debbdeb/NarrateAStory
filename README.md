@@ -5,8 +5,8 @@ A collaborative research platform exploring digital technologies for heritage do
 ## **Focus Areas**
 
 - Developing crowdsourced datasets for the documentation of rare heritage
-- Developing heritage ontologies for rare heritage using crowdsourced data
-- Developing ontology mapping techniques and immersive storytelling experiences for heritage
+- Developing rare heritage ontologies for rare heritage using crowdsourced data
+- Developing ontology mapping techniques and immersive storytelling experiences for rare heritage
 - Developing low-cost eye-tracking systems for audience engagement analysis in heritage exhibitions
 
 While developed for digital heritage research, these low-cost eye-tracking methodologies are designed to be extensible and adaptable to other domains, such as social attention research in ADHD.
